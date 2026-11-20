@@ -6,7 +6,11 @@ American Wallet is a **finance documentary** channel. Every video must feel like
 
 The narration is the story. Visuals must make the financial system, people affected by it, decisions, objects, evidence, and consequences understandable.
 
-## 1. Documentary visual language
+## 1. Fixed video format — non-negotiable
+
+**American Wallet is always 16:9 landscape.** This is a hard channel requirement. Do not create 9:16 vertical, square, or a vertical-first edit. Compose every scene, character position, documentary insert, chart, lower third, subtitle, and graphic for a widescreen 16:9 frame from the start. Do not generate vertical assets and crop them into landscape. The final export must be 16:9.
+
+## 2. Documentary visual language
 
 Use a deliberate mix of:
 - Photorealistic, cinematic documentary-style scenes.
@@ -18,7 +22,7 @@ Use a deliberate mix of:
 
 Favor naturalistic lighting, believable materials, realistic proportions, thoughtful composition, depth, motivated camera movement, and restrained color grading. Avoid glossy commercial-advertising imagery, fantasy visuals, plastic-looking AI renders, and generic corporate stock-photo compositions.
 
-## 2. Characters are required when the story needs people
+## 3. Characters are required when the story needs people
 
 Do not make a character-free video by default. Include people whenever the narration describes or implies a human experience, decision, risk, benefit, conflict, or consequence.
 
@@ -44,7 +48,7 @@ When a person recurs:
 
 Characters are not mandatory in every shot. Use objects, environments, documents, maps, or graphics when those communicate the beat more clearly. The rule is story-led casting, not people in every frame.
 
-## 3. The documentary object library
+## 4. The documentary object library
 
 Select objects from the actual subject of the narration. Examples include:
 
@@ -60,7 +64,7 @@ Objects must be legible enough to communicate the intended idea. Avoid meaningle
 
 Never fabricate a government letter, official seal, financial statement, named institution document, account balance, or numerical evidence. If a document is illustrative, make it generic and do not present it as an authentic official record.
 
-## 4. Scene selection: match the visual to the narration
+## 5. Scene selection: match the visual to the narration
 
 For every narration beat, choose the strongest visual form:
 
@@ -79,7 +83,7 @@ Do not illustrate every sentence literally. Group related narration into coheren
 
 Every shot must add information, context, emotion, or progression. Do not use random B-roll merely to fill time.
 
-## 5. Financial evidence and graphics
+## 6. Financial evidence and graphics
 
 - Use exact figures, dates, policy details, and claims from the supplied script or verified source material.
 - Preserve units, time periods, comparison baselines, and qualifications.
@@ -88,15 +92,23 @@ Every shot must add information, context, emotion, or progression. Do not use ra
 - Do not generate legible fake official documents. Use generic, non-deceptive props for illustrative scenes and reserve exact factual claims for sourced graphics or verified on-screen text.
 - If a key claim cannot be substantiated from supplied material, flag it instead of visually presenting it as fact.
 
-## 6. Editing, camera, and sound
+## 7. Documentary sound design — mandatory
 
-Use documentary pacing: allow important evidence and human reactions time to register, then move on when the narration changes beat. Avoid arbitrary rapid cuts and repetitive slow zooms.
+**Sound design is a required part of every American Wallet video. Do not deliver a voiceover-only soundtrack.** The audio must make the documentary world feel real, guide attention, and sustain retention without becoming sensational.
 
-Camera movement must have a reason: reveal a document detail, follow an action, establish a location, move from a person to the object they are considering, or emphasize a meaningful change.
+Build a layered soundtrack for every scene:
 
-Use restrained documentary music and purposeful environmental sound. Keep narration intelligible and dominant. Do not use sensational sound design to imply danger or certainty beyond the evidence.
+- **Music bed:** use cinematic documentary scoring that follows the specific financial story. Create curiosity and restrained tension for the setup, measured momentum for explanations, emotional weight for human consequences, and a clear release/payoff. Evolve the music across sections; do not loop one generic track unchanged for the entire video. Use subtle transitions, builds, drops, and restrained accents at story turns.
+- **Environmental ambience:** give each location an appropriate sound bed—quiet home room tone, kitchen ambience, office hum, bank or store atmosphere, street traffic, public-space murmur, weather, or other credible environmental sound. Maintain continuity across shots in the same place.
+- **Specific action SFX:** deliberately add scene-matched effects whenever the viewer sees an action or important object: paper and envelope handling, letter opening, page turns, calculator keys, pen marks, keyboard typing, phone taps/notifications, footsteps, chair movement, grocery scanner, receipt printing, cash/register sounds, door movement, car ambience, and other relevant details. Use a broad, story-specific vocabulary rather than repeating the same few effects.
+- **Documentary emphasis and transitions:** subtle low impacts, restrained risers, swells, or sound bridges can underline a key figure, reveal, change of location, or consequence. Use only when motivated by the story; avoid trailer-style overdramatization.
+- **Voiceover:** always remains clear and forward. Duck music and competing ambience/SFX under speech; let selected effects emerge in narration gaps. Avoid clipping, harsh peaks, and muddy low frequencies.
 
-## 7. Brand system
+Create a beat-by-beat sound map with the shot plan. Specify each layer, source/action, timing, and intended emotional or informational purpose. Do not use random whooshes as a substitute for sound design. Brief intentional silence is permitted only as a deliberate dramatic choice, not because the soundtrack was forgotten.
+
+Use documentary pacing: allow important evidence and human reactions to register, then move on when the narration changes beat. Camera movement must reveal a detail, follow an action, establish a location, move from a person to the object they consider, or emphasize a meaningful change. Sync music transitions and SFX to the actual edit.
+
+## 8. Brand system
 
 - Deep Navy: `#14263D`
 - Warm Ivory: `#F5F1E8`
@@ -106,19 +118,21 @@ Use restrained documentary music and purposeful environmental sound. Keep narrat
 - Do not add extra brand colors, decorative gold, random logos, or unrequested subscribe prompts.
 - Do not apply Ninety Sense's stylized 3D environment / flat 2D face system.
 
-## 8. Required production workflow
+## 9. Required production workflow
 
 1. Break the voiceover into story beats and identify the human stakes, financial mechanism, evidence, and consequences.
 2. Decide where characters are needed. If the narration describes people, their choices, or their lived consequences, plan character-led scenes rather than defaulting to object-only visuals.
 3. Build a recurring cast only when the story benefits from continuity; define each recurring character before generating their scenes.
 4. Build a varied shot list that deliberately mixes characters, environments, objects, evidence, and graphics.
 5. Generate or source each visual using tools actually available. Inspect outputs for realism, continuity, factual integrity, and relevance.
-6. Edit to the voiceover, keeping documentary pacing and clear visual progression.
-7. Review the complete video for visual variety, meaningful character use, accurate evidence, brand consistency, and absence of generic filler.
+6. Design a complete beat-by-beat sound map: evolving documentary music, location ambience, story-specific action SFX, and motivated transition/emphasis sounds.
+7. Edit picture and all sound layers to the voiceover, keeping documentary pacing and clear visual progression. Export in 16:9 landscape.
+8. Review the complete video for visual variety, meaningful character use, accurate evidence, brand consistency, strong layered sound, and absence of generic filler.
 
 ## Final quality test
 
 Before delivery, ask:
+- Is the final video 16:9 landscape?
 - Does this unmistakably feel like a finance documentary?
 - Are people shown when the story requires human experience or consequences?
 - Do recurring characters remain visually consistent?
@@ -127,5 +141,7 @@ Before delivery, ask:
 - Does the video explain the financial story rather than merely decorate the narration?
 - Are the Navy and Ivory brand colors respected?
 - Is the visual sequence varied, coherent, and watchable for the full runtime?
+- Is there an evolving music bed, appropriate ambience, and varied story-specific SFX—not just voiceover?
+- Are sound effects synced to visible actions, and are music/SFX mixed below narration when speech is present?
 
 If any answer is no, correct the edit before calling it finished.
