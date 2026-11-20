@@ -1,5 +1,9 @@
 # Ninety Sense — channel profile
 
+## Fixed video format — non-negotiable
+
+**Ninety Sense is always 9:16 vertical.** This is a hard channel requirement. Do not create 16:9 landscape, square, or horizontal-first edits. Compose all characters, environments, actions, captions, and subtitles for a vertical phone screen from the beginning. Keep important faces and story actions inside vertical safe areas. The final export must be 9:16.
+
 ## Audience and content
 Psychological and emotional Shorts about overthinking, relationships, identity, loneliness, behavior, and uncomfortable truths. The content must feel like an animated story, not a motivational quote slideshow.
 
@@ -31,15 +35,20 @@ Avoid generic advice, random cinematic b-roll, floating quote text, and unrelate
 - Preserve character identity, clothing, props, and spatial continuity.
 - Never recreate identifiable Ricks Clips characters.
 
-## Text, pacing, sound
-- Open on the most intriguing action or consequence.
-- Use one short hook and selective emphasis; subtitles are separate.
-- Do not animate every spoken word.
-- Cut on changes in action, reaction, or idea; avoid meaningless rapid cuts.
-- Voiceover remains the emotional center.
-- Use music for tension, awkwardness, suspense, or release.
-- Use effects for meaningful actions and reveals, not every cut.
-- Silence is allowed when it improves impact.
+## Sound design, text, and pacing — mandatory
+
+**Sound is a core retention tool for Ninety Sense. A voiceover-only soundtrack is not acceptable.** Build a detailed, story-driven soundscape that makes the animated world feel alive and makes every emotional beat land.
+
+For each scene, deliberately layer:
+- **Background music:** use emotionally specific music that evolves with the story—unease, curiosity, awkwardness, anxiety, suspense, realization, sadness, relief, or dark humor as appropriate. Build tension, drops, rises, and payoff around the narration. Avoid one flat generic music loop.
+- **Environmental ambience:** add setting-specific atmosphere such as bedroom room tone, distant traffic, crowd murmur, office hum, rain against a window, hallway tone, or other sounds that make the 3D environment believable.
+- **Story-specific SFX:** use varied, precisely timed sounds for visible actions and emotional cues: phone buzzes, notification pings, typing, message send sounds, footsteps, clothing movement, chair scrapes, doors, breathing, clock ticks, objects being placed or dropped, room movement, and other effects that the actual story calls for. Make the effects match the action; do not sprinkle random sounds.
+- **Transitions and emotional accents:** subtle risers, impacts, reverse swells, whooshes, or brief stingers can mark a reveal or transition, but only when motivated. Avoid repetitive whooshes on every cut.
+- **Voiceover:** remains the emotional center and must always be intelligible. Duck music and ambience under speech; use narration gaps for selected foreground effects.
+
+Create a sound map alongside the visual shot plan. Mark the exact narration beat/action, SFX, ambience, music movement, and sync point. Sound effects should reinforce the physical action and psychology, not merely decorate it. Use intentional silence sparingly for a powerful pause, never as a substitute for completing the soundtrack.
+
+Open on the most intriguing action or consequence. Use one short hook and selective emphasis; subtitles are separate. Do not animate every spoken word. Cut on changes in action, reaction, or idea; avoid meaningless rapid cuts. Sync music changes and effects to the emotional progression. The soundtrack should have purposeful variation across the entire Short.
 
 ## Content integrity
 No invented psychological research, fake quotations, diagnoses, or copied scripts. Every scene must advance the actual narration.
