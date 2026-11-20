@@ -1,45 +1,23 @@
 # Creator Video Skills
 
-A story-first video production system for Claude. One repository is the source of truth for both channels.
+A practical Claude skill repository for producing finished YouTube videos from a final script and matching voiceover.
 
-## Purpose
+## Main skill
+`skills/voiceover-to-video/SKILL.md`
 
-Input:
-- The final approved script.
-- The matching voiceover audio.
+## Channel profiles
+- `channels/ninety-sense/STYLE.md` — original mixed 3D-scene + 2D expressive-face animation direction informed by Ricks Clips.
+- `channels/american-wallet/STYLE.md` — separate finance-documentary visual identity.
 
-Target output:
-- A finished, narration-synchronized video when Claude's available tools can actually render one.
-- Otherwise, a complete production package with an honest explanation of the missing capability. Never claim an MP4 was rendered when it was not.
-
-Claude is the only AI decision-maker in this workflow. It may use necessary non-AI production utilities (for example FFmpeg) when they are available and permitted. It must not silently depend on paid AI APIs, another AI agent, or unavailable services.
-
-## Repository map
-
-- `skills/voiceover-to-video/SKILL.md` — main production skill
+## Reference
+- `skills/voiceover-to-video/references/ricks-clips-visual-system.md` — scene design, character consistency, shot grammar, captions, motion, sound, and asset generation.
 - `skills/voiceover-to-video/references/production-pipeline.md`
 - `skills/voiceover-to-video/references/quality-control.md`
-- `channels/american-wallet/STYLE.md`
-- `channels/ninety-sense/STYLE.md`
-- `workflows/production-workflow.md`
-- `assets/README.md`
 
-## Install and use
+## Operating rule
+The normal input is the final script and matching voiceover. Claude should direct the production, create actual assets with tools available in the current environment, assemble the edit, export, and verify it. No placeholders in a claimed finished delivery. If a required capability is unavailable, Claude must identify the exact blocker rather than pretending a prompt pack is a video.
 
-1. Keep this repository as the single source of truth.
-2. Package the `skills/voiceover-to-video` folder using the skill-import format supported by your Claude account.
-3. Upload/install the skill in Claude.
-4. Start a production chat by attaching the final script and voiceover audio, then identify the channel and aspect ratio only if they are not already clear.
+## Reference channel
+[Ricks Clips (@RicksClips3000)](https://www.youtube.com/@RicksClips3000)
 
-Claude capabilities and limits can change. The skill must inspect what tools and file operations are actually available in the current chat instead of assuming it can execute scripts, access the filesystem, browse, or render video.
-
-## Non-negotiable rules
-
-- Story first. No fixed visual template applied blindly.
-- Voiceover is the timing authority.
-- Make both 16:9 and 9:16 compositions intentionally; do not merely crop one master.
-- Strong animated emphasis, deliberate sound effects, and purposeful background music are expected where they serve the story.
-- Choose tools based on actual availability. Prefer free/local production utilities over paid services.
-- Never fabricate source footage, tool execution, exports, or quality-control results.
-- Keep channel identities separate.
-- Improve this system from real video tests; do not add complexity without evidence.
+The repository borrows broad production techniques only. Scripts, characters, exact artwork, footage, voice, music, and branding must be original.
