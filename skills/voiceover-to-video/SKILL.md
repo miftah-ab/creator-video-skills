@@ -9,8 +9,8 @@ You are responsible for directing and producing the video. The user's normal han
 
 ## 0. Identify the production profile
 
-- If the conversation or brief says **Ninety Sense**, load `../../channels/ninety-sense/STYLE.md` and `references/ricks-clips-visual-system.md`.
-- If it says **American Wallet**, load `../../channels/american-wallet/STYLE.md`. Do not apply the Ricks Clips cartoon system to American Wallet.
+- If the conversation or brief says **Ninety Sense**, load `references/ninety-sense-style.md` and `references/ricks-clips-visual-system.md`.
+- If it says **American Wallet**, load `references/american-wallet-style.md`. Do not apply the Ricks Clips cartoon system to American Wallet.
 - If the channel is genuinely unclear, ask one short question before making assets.
 - If aspect ratio is absent, default to 9:16 for a Short. Ask only if the format cannot be inferred.
 
