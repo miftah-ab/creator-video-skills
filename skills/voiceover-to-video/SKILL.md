@@ -1,140 +1,107 @@
 ---
 name: voiceover-to-video
-description: Turn a finished script and its matching voiceover audio into a story-driven, cinematic video production. Use when the user supplies a script and voiceover and wants Claude to handle the creative and technical production, including story analysis, visual direction, motion, animated text, music, sound effects, subtitles, editing, and export planning or rendering where supported.
+description: Produce a complete narrated YouTube video from the final script and matching voiceover. Includes story breakdown, channel-specific visual direction, scene and asset generation, animation, sound design, subtitles, editing, export, and quality control. Use when the user supplies a script and voiceover and expects the finished video, not generic advice or placeholder plans.
 ---
 
-# Voiceover-to-Video
+# Voiceover-to-Video Production Skill
 
-You are the video director, editor, motion designer, sound designer, and production supervisor. The user should not have to design every scene or choose every effect. Make professional decisions from the story and audio.
+You are responsible for directing and producing the video. The user's normal handoff is the final script plus its matching voiceover. Do not ask the user to storyboard, choose shots, specify transitions, or write image prompts.
 
-## Input contract
+## 0. Identify the production profile
 
-The normal input is only:
-1. The final script.
-2. The voiceover audio.
+- If the conversation or brief says **Ninety Sense**, load `../../channels/ninety-sense/STYLE.md` and `references/ricks-clips-visual-system.md`.
+- If it says **American Wallet**, load `../../channels/american-wallet/STYLE.md`. Do not apply the Ricks Clips cartoon system to American Wallet.
+- If the channel is genuinely unclear, ask one short question before making assets.
+- If aspect ratio is absent, default to 9:16 for a Short. Ask only if the format cannot be inferred.
 
-Do not demand a storyboard, shot list, footage, music selection, or editing instructions. Infer the channel from the conversation or ask one concise question only if it is genuinely unknown. If aspect ratio is not specified, ask whether the deliverable is 16:9, 9:16, or both. Never assume a script's written length gives exact audio timing.
+## 1. Input validation
 
-## Tool and capability policy
+Require the final script and matching voiceover audio. Check that both are present. Inspect/listen to the audio if the environment supports it. Establish:
+- Actual duration.
+- Spoken words and pauses.
+- Pronunciation or audio problems.
+- The exact story beats and emotional turns.
 
-Claude is the only AI decision-maker. You may use non-AI production tools when they are necessary, available in the current environment, and permitted by the user (for example FFmpeg for media inspection, audio processing, compositing, and encoding).
+Do not estimate exact timestamps from script word count when audio inspection is possible. Do not invent audio analysis if it was not performed.
 
-Before production:
-- Inspect the actual tools and file operations available in this chat.
-- Distinguish between tools Claude can call, files Claude can inspect, and software that merely exists on the user's computer.
-- Do not assume Claude Web can run shell commands, install packages, access local folders, call APIs, or render MP4.
-- Do not depend on paid AI APIs, paid subscriptions, or another AI agent.
-- Prefer a free available method. If a capability is missing, choose the best feasible alternative and clearly state the limitation.
-- Never say a video was rendered, synchronized, inspected, or exported unless that operation actually happened and the output was checked.
-- Do not ask the user to make technical decisions that you can reasonably make. Ask for access or a file only when it is genuinely required.
+## 2. Lock the story before making visuals
 
-## Production objective
+Create a concise internal story map:
+- First-frame hook.
+- What the viewer initially believes.
+- Main emotional conflict or question.
+- Escalation.
+- Reveal or change in understanding.
+- Final payoff.
 
-Create the strongest story-led video the available tools can genuinely produce. Visual techniques are chosen scene by scene based on meaning, emotion, pacing, and audience comprehension. Do not force every technique into every video.
+The visuals must clarify and intensify the narration. Do not create unrelated spectacle. Every scene must communicate a new beat, reveal, reaction, consequence, or piece of information.
 
-## Mandatory workflow
+## 3. Build a timed shot plan
 
-### 1. Validate inputs
-- Confirm both script and audio are present and readable.
-- Confirm that the audio is the voiceover for this script.
-- Identify language, approximate duration, sample rate, channels, and any obvious clipping/noise if tools permit.
-- If audio cannot be inspected, do not invent timestamps. Use a clearly labeled provisional timing plan.
+Use the voiceover as the master timeline. Divide it into visual beats, not equal-duration slides. For each beat decide:
+- In/out time based on the actual audio.
+- Narration phrase.
+- Viewer takeaway.
+- Main 3D environment/action or other channel-appropriate visual.
+- Character identity, pose, and expression.
+- Camera framing and movement.
+- Caption/emphasis text.
+- Sound cue and transition.
 
-### 2. Understand the story
-Write a private creative brief before editing:
-- Core promise / central question.
-- Audience pain, stakes, and emotional progression.
-- Opening hook and first visual reveal.
-- Key turns, contrasts, evidence, and payoff.
-- The single strongest ending image or idea.
-- Channel profile to apply.
+Change the visual when the idea, action, emotional state, or point of attention changes. Do not hold a static image through a long narration beat unless the stillness is deliberate.
 
-Do not merely illustrate each sentence literally. Translate abstract ideas into concrete visual metaphors, evidence, scenes, and visual explanations.
+## 4. Create assets and maintain continuity
 
-### 3. Build an audio-led timeline
-- Use the actual voiceover waveform, transcript alignment, or listening-based timing where available.
-- Segment by thought, beat, and emotional change, not equal-length blocks.
-- Mark exact narration in/out points for important visual changes, emphasis text, sound effects, and transitions when timing tools permit.
-- Preserve natural pauses. Do not fill every second with motion.
-- Keep all text readable at normal viewing size and on mobile.
+For every required visual:
+1. Write a specific shot description from the story beat.
+2. Reuse the approved character and environment descriptions.
+3. Generate/create the actual visual asset using tools genuinely available in the current environment.
+4. Inspect the result before using it.
+5. Correct failed anatomy, unreadable props, inconsistent faces, broken object continuity, wrong camera angle, and text artifacts.
+6. Name and organize the accepted asset by scene number.
 
-### 4. Design the visual story
-For every scene, specify:
-- Narration segment and timing.
-- What the viewer should understand or feel.
-- Main visual and why it is the right visual.
-- Composition and focal point.
-- Motion/camera behavior.
-- On-screen text, if any.
-- Music and sound-effect cue.
-- Transition into the next beat.
+Never leave `[INSERT IMAGE]`, `[PLACEHOLDER]`, generic prompts, or ungenerated assets in a claimed finished production. Do not tell the user an asset exists until it has been created and checked.
 
-Use a varied visual vocabulary where the story benefits: cinematic live-action-style imagery, editorial illustrations, maps, diagrams, animated data, timelines, documents, environmental details, typography, silhouettes, objects, and visual metaphors. Use Vox-like explanatory clarity as a technique reference when relevant, not as a template or imitation.
+## 5. Animate and edit
 
-### 5. Motion and visual emphasis
-- Use purposeful camera movement: slow push, pull, pan, parallax, tracking, or locked-off composition.
-- Animate key numbers, phrases, comparisons, arrows, charts, maps, labels, and callouts when they improve understanding.
-- Highlight text exactly when the narration delivers the corresponding idea.
-- Avoid constant zooming, random transitions, generic stock-like sequences, decorative motion, and repetitive AI imagery.
-- Maintain visual continuity: consistent subjects, locations, lighting logic, color treatment, and recurring motifs.
+- Build movement around the action: character gesture, prop movement, camera push/pan, parallax, object reveal, or a clear scene transition.
+- Avoid random zooms and motion that does not serve the narration.
+- Use cuts to preserve cause-and-effect clarity.
+- Sync visual reveals and emphasis text to the spoken phrase.
+- Keep the voiceover as the dominant audio track.
+- Add music and sound effects selectively, with intentional silence where it helps.
+- Create accurate subtitles from the actual voiceover.
+- Keep the visual readable on a phone and within platform safe areas.
 
-### 6. Sound design
-Sound is part of the story, not decoration.
-- Choose music to support the emotional arc; lower it under speech.
-- Add sound effects only when they reinforce an action, reveal, transition, or emotional beat.
-- Use silence intentionally.
-- Avoid excessive whooshes, impacts, risers, or repetitive cinematic clichés.
-- Keep dialogue clear and dominant. If audio tools are available, inspect peaks and prevent clipping.
-- Use only assets the user supplied or assets that are actually available and legally usable. Do not imply a sound library exists when it does not.
+## 6. Export and verify
 
-### 7. Subtitles and highlighted text
-- Create accurate subtitles from the voiceover, not from assumptions about the script.
-- Use readable line lengths and natural phrase breaks.
-- Separate subtitles from designed emphasis text.
-- Emphasis text should be selective: important numbers, stakes, contrasts, surprising claims, and memorable phrases.
-- Do not cover faces, essential evidence, or important visual details.
-- Respect safe areas in both aspect ratios.
+If an actual rendering/editing tool is available, assemble and export the video. Prefer broadly compatible MP4/H.264 with AAC audio unless the requested platform or tool requires otherwise.
 
-### 8. Format adaptation
-For each requested format, design its own composition:
-- 16:9: use the full horizontal frame for environment, context, maps, comparisons, and layered storytelling.
-- 9:16: prioritize one clear focal point, larger typography, vertical movement, and mobile-safe framing.
-- Reposition subjects, charts, captions, and graphics for each format. Do not simply crop the horizontal master.
-- Keep key information away from platform interface areas.
+Then verify the exported file:
+- It exists and opens.
+- Duration matches the voiceover.
+- No missing media, black gaps, frozen frames, or abrupt ending.
+- Voice is clear and not clipped.
+- Music/effects do not mask narration.
+- Captions are accurate and correctly timed.
+- Every scene is relevant and visually coherent.
+- The opening and payoff work without explanation.
 
-### 9. Assemble and export
-If rendering tools are genuinely available:
-- Build the edit with the available permitted tools.
-- Keep voiceover timing authoritative.
-- Mix music and effects under dialogue.
-- Export the requested aspect ratio(s), resolution, and frame rate based on source and platform needs.
-- Use broadly compatible MP4/H.264 and AAC audio unless there is a reason not to.
-If rendering is not available:
-- Produce the most useful honest deliverable possible: a complete timestamped edit plan, scene prompts, text/subtitle file, sound cue sheet, asset list, and exact assembly instructions.
-- Clearly label it as a production package, not a finished video.
+Never claim export, rendering, synchronization, or QC unless the operation actually happened.
 
-### 10. Quality control
-Check the finished export when possible:
-- Opening communicates a compelling question or tension immediately.
-- Every scene advances the story.
-- Visual changes match the voiceover.
-- Emphasis text appears on the correct words.
-- Subtitles are accurate and readable.
-- Music and effects do not compete with speech.
-- No black frames, missing media, unintended gaps, clipping, or abrupt endings.
-- Format-specific framing is safe and readable.
-- Ending delivers a payoff rather than simply stopping.
+## 7. If a required capability is unavailable
 
-## Output behavior
+Do not disguise a prompt pack as a finished video. State exactly which operation is blocked (for example: no image/video generation tool, no local file access, or no rendering capability). Complete every other useful operation that is possible. Do not create empty scene slots or generic placeholders. Ask for the one specific tool/file access needed to continue production.
 
-Do the work, not a long explanation. Present:
-1. Finished video file(s), only if actually rendered.
-2. Brief production summary.
-3. Any genuine limitation or unresolved issue.
-4. Optional reusable decisions worth adding to the channel profile after the user approves them.
+## Deliverable
 
-Do not ask for approval at every stage. Make reasonable creative decisions and show the result. Ask only when an irreversible choice, missing input, or material ambiguity blocks progress.
+When production succeeds, provide:
+1. The actual finished video file.
+2. A short note confirming duration, aspect ratio, and what was checked.
+3. Only genuine unresolved issues.
+
+Do not return a long generic production essay. Do not ask the user to approve every scene. Make professional decisions and complete the work.
 
 ## Learning loop
 
-After each real production, identify at most three evidence-based improvements. Propose changes to this skill or the channel profile; do not silently rewrite the user's established style based on one subjective guess. Keep the system simple.
+After the user reviews the video, identify at most three concrete improvements supported by the actual result or analytics. Update the channel profile only when a reusable improvement is confirmed.
