@@ -1,17 +1,16 @@
 # Creator Video Skills
 
-A focused Claude production skill for making YouTube videos from a final script and matching voiceover.
+A self-contained Claude skill for producing YouTube videos from a final script and matching voiceover.
 
-## Installable skill
-`skills/voiceover-to-video/SKILL.md`
+## Installable skill folder
+`skills/voiceover-to-video/`
 
-## Channel profiles
-- `channels/ninety-sense/STYLE.md` — original 3D-scene + 2D expressive-face animation inspired by the broad visual grammar of Ricks Clips.
-- `channels/american-wallet/STYLE.md` — separate finance-documentary identity.
-
-## Production reference
-- `skills/voiceover-to-video/references/ricks-clips-visual-system.md` — Ninety Sense scene design, characters, shot grammar, captions, motion, sound, and asset creation.
-- `skills/voiceover-to-video/references/quality-control.md` — checks for the actual exported video.
+It contains the complete skill and all references required at runtime:
+- `SKILL.md` — production instructions.
+- `references/ninety-sense-style.md` — Ninety Sense visual and story profile.
+- `references/american-wallet-style.md` — separate finance-documentary profile.
+- `references/ricks-clips-visual-system.md` — actionable 3D scene + 2D expressive-face animation specification.
+- `references/quality-control.md` — final export inspection.
 
 ## Workflow contract
 Input: final script + matching voiceover. Claude directs the story, creates and checks real visual assets with available tools, edits, exports, and verifies the video. A prompt list is not a finished video. No placeholders may remain in a claimed final delivery.
