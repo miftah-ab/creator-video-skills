@@ -1,33 +1,39 @@
-# Quality-control checklist
+# Production quality control — Ninety Sense / American Wallet
 
-## Story
-- [ ] Hook creates a clear question, tension, or consequence.
-- [ ] No scene exists only to fill time.
-- [ ] The ending pays off the opening or central promise.
-- [ ] Facts, numbers, and claims are not invented.
+Run this against the actual rendered MP4, not just the storyboard.
 
-## Picture
-- [ ] Visuals match the meaning and emotional beat of the narration.
-- [ ] No unintended repeated filler imagery.
-- [ ] Subject and text remain legible.
-- [ ] Motion is controlled and purposeful.
-- [ ] Visual continuity is maintained.
-- [ ] No unintended black frames, missing assets, or broken transitions.
+## File and audio
+- [ ] Exported file exists and opens in a media player.
+- [ ] Duration is within the intended range and the final sentence is not cut off.
+- [ ] Voiceover is synchronized with the picture from first word to last word.
+- [ ] Voice remains clear; no clipping, distortion, accidental silence, or abrupt audio edits.
+- [ ] Music and effects sit below the narration and do not mask consonants.
+- [ ] No unintended black frames, frozen frames, missing media, or broken transitions.
 
-## Text
-- [ ] Subtitles match the actual voiceover.
-- [ ] Emphasis phrases are selective and timed accurately.
-- [ ] No spelling errors.
-- [ ] Text respects safe areas and mobile readability.
+## Ninety Sense visual checks
+- [ ] 3D environments and props form a coherent physical scene, not a slideshow.
+- [ ] Flat 2D face graphics are readable and intentionally integrated into the characters.
+- [ ] Recurring characters keep the same proportions, outfit, colors, and face treatment.
+- [ ] Character eyelines, screen direction, prop positions, and action continuity make sense between cuts.
+- [ ] The first frame begins on the story's most intriguing action or consequence.
+- [ ] Every visual beat expresses the narration; no generic filler shots.
+- [ ] Captions do not cover faces, props, or the action needed to understand the scene.
+- [ ] The reveal is understandable, and the ending pays off the opening.
 
-## Sound
-- [ ] Voice is clear and consistently audible.
-- [ ] Music supports rather than competes with narration.
-- [ ] Sound effects are purposeful and not excessive.
-- [ ] No clipping, abrupt audio cuts, or unintended silence.
+## American Wallet visual checks
+- [ ] Deep Navy (#14263D) and Warm Ivory (#F5F1E8) remain the only brand colors.
+- [ ] Financial numbers and documents are accurate and traceable to the script/source.
+- [ ] No invented account balances, statistics, government forms, or official-looking evidence.
+- [ ] Older viewers can read text and understand charts on a phone.
+- [ ] Supplied host reference identity is preserved if used.
+- [ ] Finance remains the subject even when politics provides context.
 
-## Delivery
-- [ ] Requested aspect ratio(s) exported independently.
-- [ ] Correct duration and complete ending.
-- [ ] File opens and plays.
-- [ ] Export settings and any known limitations are reported honestly.
+## Platform and final review
+- [ ] 9:16 composition is designed for vertical viewing, not a careless crop.
+- [ ] Important text and faces remain within safe areas.
+- [ ] Subtitles are checked against the actual audio.
+- [ ] Title/hook promise is paid off by the video.
+- [ ] Watch the complete export once at normal speed before delivery.
+
+## Delivery truth
+Only check an item after inspecting the actual output. If the current environment cannot render or inspect the file, report that limitation; do not mark the export as complete.
