@@ -1,17 +1,19 @@
 # Project status
 
-## Version 0.1 — foundation
-- Created one core `voiceover-to-video` skill.
-- Added separate American Wallet and Ninety Sense channel profiles.
-- Added production pipeline, quality-control, and iteration guidance.
-- Designed around Claude Web Free with capability checks and honest fallbacks.
-- No paid AI API or second AI agent is required by the design.
+## Current direction
+Ninety Sense uses an original animated visual system informed by the broad visual grammar of Ricks Clips: stylized 3D environments/actions combined with expressive flat 2D face graphics. This is not a request to copy its scripts, characters, footage, music, or branding.
+
+## Implemented
+- Replaced generic core instructions with an execution-focused voiceover-to-video skill.
+- Added a detailed Ninety Sense visual-system reference.
+- Updated the Ninety Sense channel profile to use the visual system.
+- Kept American Wallet separate.
+- Added explicit rules against placeholder assets and false claims of rendering or quality control.
 
 ## Not yet validated
-- Actual Claude skill import and execution behavior.
-- Which file-generation, media-inspection, and rendering capabilities are available in the user's Claude account.
-- End-to-end export of a real test video.
-- Actual timing accuracy and quality on a supplied voiceover.
+- End-to-end production using the user's actual Claude tools.
+- Character continuity and scene quality across a complete Short.
+- Successful final video export and playback review.
 
-## Next milestone
-Run one real 60–90 second video through the skill. Record what Claude can actually inspect, generate, edit, and export. Improve only from observed failures and wins.
+## Validation target
+Run one Ninety Sense Short using only its final script and voiceover. Review the actual MP4, then improve the instructions based on observed failures. Do not add more architecture until this test passes.
