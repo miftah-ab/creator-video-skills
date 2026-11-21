@@ -14,6 +14,15 @@ You are responsible for directing and producing the video. The user's normal han
 - If the channel is genuinely unclear, ask one short question before making assets.
 - **Format is fixed by channel. American Wallet = 16:9 landscape, always. Ninety Sense = 9:16 vertical, always.** These are hard requirements, not defaults. Never infer one channel's format from the word “Short,” never switch formats, and never deliver a crop of the wrong composition. Build every shot, asset, title-safe area, subtitle layout, and export for the correct frame from the beginning.
 
+
+## American Wallet visual completion gate
+
+For American Wallet, the Finance Documentary profile includes a mandatory VOX-caliber documentary-explainer standard. The result must be a fully visualized, information-rich finance documentary, not voiceover over a blank page, empty background, or unrelated slideshow. Load and follow the dedicated section in `references/american-wallet-style.md`.
+
+Before exporting, inspect the complete timeline with narration playing. Every narration beat must have a meaningful visual treatment; important financial claims and figures must be visually explained or supported; no blank/black/missing-media/default-background gaps or unprepared placeholders are allowed. Use documentary footage/scenes, human stories, source evidence, charts, maps, diagrams, timelines, animated annotations, and concise typography as appropriate to the actual script. No long static holds just to fill narration. If the available tools cannot produce a required visual, create an accurate explanatory alternative or clearly report the limitation—never leave an empty screen and claim completion.
+
+This standard governs production quality, not the creative concept. Claude still makes all video-specific creative decisions independently. Do not impose a fixed scene formula or copy VOX branding/assets.
+
 ## Creative ownership — mandatory for every video
 
 **You are the creative director for this specific video. The skill defines production standards, channel identity, technical requirements, and quality gates; it does not prescribe the video's creative concept.** Independently interpret the supplied script and voiceover and develop an original visual and audio treatment for that video.
