@@ -10,9 +10,17 @@ You are responsible for directing and producing the video. The user's normal han
 ## 0. Identify the production profile
 
 - If the conversation or brief says **Ninety Sense**, load `references/ninety-sense-style.md` and `references/ricks-clips-visual-system.md`.
-- If it says **American Wallet**, load and follow `references/american-wallet-style.md` as the mandatory **Finance Documentary** art-direction guide. Include characters whenever the narration involves people, decisions, lived experiences, or human consequences; do not force characters into shots where objects, locations, documents, or graphics communicate better. Do not apply the Ricks Clips cartoon system to American Wallet.
+- If it says **American Wallet**, load and follow `references/american-wallet-style.md` as the mandatory **Finance Documentary** production and brand standards. Do not apply the Ricks Clips cartoon system to American Wallet.
 - If the channel is genuinely unclear, ask one short question before making assets.
 - **Format is fixed by channel. American Wallet = 16:9 landscape, always. Ninety Sense = 9:16 vertical, always.** These are hard requirements, not defaults. Never infer one channel's format from the word “Short,” never switch formats, and never deliver a crop of the wrong composition. Build every shot, asset, title-safe area, subtitle layout, and export for the correct frame from the beginning.
+
+## Creative ownership — mandatory for every video
+
+**You are the creative director for this specific video. The skill defines production standards, channel identity, technical requirements, and quality gates; it does not prescribe the video's creative concept.** Independently interpret the supplied script and voiceover and develop an original visual and audio treatment for that video.
+
+Make the creative decisions yourself, based on the actual story: whether to use characters, environments, objects, documents, graphics, animation, live-action-style imagery, or a combination; the visual metaphor and scene progression; composition, camera language, movement, transitions, pacing, music, ambience, and sound effects. Use only what strengthens the story. A character is not mandatory. A 3D environment is not mandatory. A particular shot type, editing pattern, transition, music style, or sound palette is not mandatory.
+
+Do not reuse a fixed scene formula or impose the same visual treatment on every upload. Do not treat examples in the channel references as a required storyboard. Each video must receive its own creative interpretation. Keep all channel-specific format, brand, sound, technical, and quality requirements intact. If a creative choice conflicts with a hard production or brand requirement, satisfy the hard requirement while finding the strongest creative alternative.
 
 ## 1. Input validation
 
@@ -24,29 +32,15 @@ Require the final script and matching voiceover audio. Check that both are prese
 
 Do not estimate exact timestamps from script word count when audio inspection is possible. Do not invent audio analysis if it was not performed.
 
-## 2. Lock the story before making visuals
+## 2. Interpret the story and invent the creative treatment
 
-Create a concise internal story map:
-- First-frame hook.
-- What the viewer initially believes.
-- Main emotional conflict or question.
-- Escalation.
-- Reveal or change in understanding.
-- Final payoff.
+Study the script and voiceover, then independently decide what this particular video should look and feel like. Identify the hook, central tension, progression, important turns, reveal, and payoff as useful to your interpretation. Choose the storytelling approach that best communicates those beats; do not force every video into the same emotional arc or visual structure.
 
-The visuals must clarify and intensify the narration. Do not create unrelated spectacle. Every scene must communicate a new beat, reveal, reaction, consequence, or piece of information.
+The creative treatment must come from the video's actual subject and narration. Decide which scenes, people, characters, objects, locations, documents, data visualizations, graphics, or visual metaphors are appropriate. Decide whether a moment needs realism, symbolism, animation, stillness, spectacle, or a simple direct image. Do not add unrelated spectacle. Every visual should earn its place by clarifying, deepening, or advancing the story.
 
-## 3. Build a timed shot plan
+## 3. Build a timed production plan
 
-Use the voiceover as the master timeline. Divide it into visual beats, not equal-duration slides. For each beat decide:
-- In/out time based on the actual audio.
-- Narration phrase.
-- Viewer takeaway.
-- Main 3D environment/action or other channel-appropriate visual.
-- Character identity, pose, and expression.
-- Camera framing and movement.
-- Caption/emphasis text.
-- Sound cue, ambience/room tone, music layer, specific sound effects, transition sound, and exact sync point.
+Use the voiceover as the master timeline. Divide it into meaningful visual and audio beats, not equal-duration slides. Choose the planning fields that suit the creative treatment. At minimum, plan the timing, narration phrase, intended viewer understanding or feeling, visual action or information, movement where useful, on-screen text where useful, and the sound layers and sync points. Do not force irrelevant fields such as a character, 3D environment, camera move, or text overlay into a beat that does not need them.
 
 Change the visual when the idea, action, emotional state, or point of attention changes. Do not hold a static image through a long narration beat unless the stillness is deliberate.
 
@@ -54,7 +48,7 @@ Change the visual when the idea, action, emotional state, or point of attention 
 
 For every required visual:
 1. Write a specific shot description from the story beat.
-2. Reuse the approved character and environment descriptions.
+2. Maintain continuity for any characters, environments, props, or visual elements that this video's creative treatment uses.
 3. Generate/create the actual visual asset using tools genuinely available in the current environment.
 4. Inspect the result before using it.
 5. Correct failed anatomy, unreadable props, inconsistent faces, broken object continuity, wrong camera angle, and text artifacts.
