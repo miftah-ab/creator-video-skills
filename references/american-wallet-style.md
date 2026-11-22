@@ -78,6 +78,17 @@ Review the full timeline from first frame to last frame, with the voiceover play
 
 If any check fails, fix the timeline before export. A video with empty screens or voiceover over unprepared placeholders is not a completed American Wallet video.
 
+## 2B. Collage-explainer treatment — style reference, original work only
+
+Use for concept-led graphics, title cards, and key explanatory visuals where a layered collage explains the story better than a literal photo. It complements the documentary language above; it does not replace it.
+
+- **Technique:** layered torn-paper and cutout collage, grain and halftone texture, tape and paper-clip details.
+- **Composition:** one strong central subject (an object, building, symbol, or silhouette) with smaller supporting pieces around it. Use overlap for depth. Use a split composition when the story has two sides or a clear contrast.
+- **Information:** put key figures, dates, rules, and short quotes on paper notes or tags. Use only verified facts, a few per frame, readable at phone size.
+- **Palette:** keep Deep Navy and Warm Ivory from Section 8 as the base. Red and mustard may appear only as small accents (a highlighted figure, a tag, a torn edge). No pink and no full-color takeovers.
+- **Originality:** any reference images supplied for this style only define the general feel. Never reproduce a specific composition, layout, artwork, poster, or thumbnail. No third-party logos or channel branding.
+- Section 2A still applies in full: no empty frames, no fabricated documents or numbers, and sources kept.
+
 ## 3. Characters are required when the story needs people
 
 Do not make a character-free video by default. Include people whenever the narration describes or implies a human experience, decision, risk, benefit, conflict, or consequence.
