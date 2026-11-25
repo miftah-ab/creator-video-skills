@@ -1,27 +1,43 @@
 # Project status
 
-## Current direction
-Ninety Sense uses an original animated visual system informed by the broad visual grammar of Ricks Clips: stylized 3D environments/actions combined with expressive flat 2D face graphics. This is not a request to copy its scripts, characters, footage, music, or branding.
+## Current production contract
 
-## Implemented
-- Replaced generic core instructions with an execution-focused voiceover-to-video skill.
-- Added a detailed Ninety Sense visual-system reference.
-- Updated the Ninety Sense channel profile to use the visual system.
-- Kept American Wallet separate.
-- Added explicit rules against placeholder assets and false claims of rendering or quality control.
+- Both Ninety Sense and American Wallet support 16:9 landscape and 9:16 portrait.
+- Exactly one format is selected per production. Never assume a permanent channel format or automatically render both.
+- Final MP4 basename must exactly match the uploaded voiceover basename; replace only the final audio extension with lowercase `.mp4`. Preserve numbering, capitalization, spaces, and punctuation.
+- Claude interprets the complete script/story and creates specific, ready-to-paste image prompts for images genuinely needed by that story.
+- The user may generate images in their chosen image generator and upload them using stable Image 1, Image 2, etc. labels. No paid image-generation API is required.
+- Both channels use the shared story-first sound-design workflow. Claude should execute sound design in the actual timeline when the available environment supports it and must report limitations honestly.
+- Ninety Sense and American Wallet retain separate creative identities and channel references.
 
-## Not yet validated
-- End-to-end production using the user's actual Claude tools.
-- Character continuity and scene quality across a complete Short.
-- Successful final video export and playback review.
+## Implemented in the repository
 
-## Validation target
-Run one Ninety Sense Short using only its final script and voiceover. Review the actual MP4, then improve the instructions based on observed failures. Do not add more architecture until this test passes.
+- Execution-focused voiceover-to-video skill with input validation, creative ownership, and production truth requirements.
+- Separate Ninety Sense and American Wallet channel profiles.
+- Original Ninety Sense visual-system guidance; it borrows broad visual grammar only, not another creator's protected characters, artwork, footage, music, or branding.
+- American Wallet finance-documentary visual standard, including information-rich visual explanation and no empty-screen narration coverage.
+- Shared image-prompt workflow and manual asset handoff.
+- Shared output contract for per-production format selection and exact voiceover-basename MP4 naming.
+- Shared story-first sound-design workflow.
+- Updated quality-control checklist covering both channels, both formats, filename verification, picture, sound, and final playback.
+- README now documents all required references and the current production contract.
 
+## Not yet validated in real production
 
-## Image-prompt workflow update
-- Added a shared image-prompt workflow for American Wallet and Ninety Sense.
-- Claude must interpret the complete script/story and produce specific, ready-to-paste image prompts for each genuinely required image.
-- The user generates images in their chosen image generator and uploads them by stable Image 1, Image 2, etc. labels.
-- No connected image-generation API or new paid subscription is required.
-- End-to-end prompt quality and manual asset handoff still require validation with actual Claude tools and user-generated images.
+These are runtime tests, not documentation tasks:
+- End-to-end production using the user's actual Claude tools and available editing/rendering environment.
+- Image prompt quality, manual image upload mapping, and visual consistency across a complete Ninety Sense video.
+- American Wallet documentary coverage, financial graphic clarity, and brand compliance across a complete video.
+- Actual timeline sound-design execution, final MP4 export, exact filename preservation, and full playback review.
+- Successful separate tests in 16:9 and 9:16.
+
+## Next validation sequence
+
+1. Produce one complete Ninety Sense video from its final script and voiceover. Select one format, generate prompts, upload the resulting images, edit, sound-design, export, and inspect the actual MP4.
+2. Produce one complete American Wallet video separately and inspect its documentary visuals, financial explanations, brand compliance, sound, and export.
+3. Run a second production in the other aspect ratio to verify native composition and export behavior.
+4. Record only observed failures and fix those. Do not add architecture or features without evidence from these production tests.
+
+## Completion rule
+
+The skill instructions and repository documentation are implemented. The production system is **not end-to-end validated** until real videos from both channels have been exported and reviewed. Never describe the project as fully production-proven before those tests pass.
