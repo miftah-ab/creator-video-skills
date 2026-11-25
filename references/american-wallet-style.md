@@ -193,7 +193,7 @@ Use documentary pacing: allow important evidence and human reactions to register
 2. Interpret the story and invent an original documentary treatment for this specific video.
 3. Break the voiceover into meaningful timed beats. Plan the visual purpose, narration phrase, scene action, framing, movement, on-screen text, and sound layers for each beat.
 4. Decide where characters, environments, objects, documents, charts, maps, timelines, diagrams, or collage graphics best communicate the narration.
-5. Create and inspect the required visual assets. Maintain character, prop, and location continuity where the story uses recurring elements.
+5. Identify only the images the story genuinely needs. Follow `references/image-prompt-workflow.md` to create detailed, ready-to-paste prompts for each required image, then pause for the user's generated image uploads. Inspect the uploaded images and maintain character, prop, and location continuity. Do not require a connected image-generation API.
 6. Organize assets by scene and give them clear names tied to the storyboard. Keep the original voiceover filename available for the final export name.
 7. Build the picture edit, animation, captions, subtitles, music, ambience, and story-specific sound effects around the actual voiceover.
 8. Generate a preview and inspect the full timeline. Fix missing visuals, weak pacing, unreadable graphics, continuity problems, mistimed captions, and audio issues.
