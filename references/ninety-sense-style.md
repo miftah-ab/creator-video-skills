@@ -69,6 +69,7 @@ Use Deep Ink and Slate as the foundation, Warm Ivory for primary type, and Vermi
 - No forced text on every shot. Preserve clean frames when the image communicates better alone.
 - Maintain clear hierarchy, spacing, alignment, and safe margins in both 16:9 and 9:16. Never cover faces, key props, or action.
 - Thumbnail typography follows the same pairing: Oswald Bold for a brief phrase only when it improves the idea; Manrope for small supporting labels. Do not default to text-heavy thumbnails.
+- **Approved high-impact treatments:** (1) one short hook appearing with the opening action; (2) one isolated key word briefly switching to Muted Vermilion at the emotional turn; (3) a restrained title-card phrase in Oswald with generous negative space; (4) a minimal Manrope subtitle treatment that stays out of the character's face/action. Use one treatment at a time. No bouncing word-by-word karaoke captions, meme fonts, glowing outlines, or noisy kinetic presets.
 
 ### Brand signature
 Use the canonical Ninety Figure and cube references when supplied. Preserve their exact silhouette, proportions, geometry, material, and established colors. The recurring “90” mark may appear as a restrained signature, not a watermark on every frame.
