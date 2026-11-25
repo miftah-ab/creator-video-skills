@@ -40,6 +40,39 @@ Avoid generic advice, random cinematic b-roll, floating quote text, and unrelate
 - Preserve character identity, clothing, props, and spatial continuity.
 - Never recreate identifiable Ricks Clips characters.
 
+## Typography and color system — mandatory
+
+Ninety Sense uses a premium, dark editorial-psychology identity. Typography must feel cinematic and emotionally precise, never like a generic motivational Shorts template.
+
+### Locked color palette
+- **Deep Ink** — `#111827`: primary dark field, title cards, and deep shadows.
+- **Slate** — `#374151`: secondary dark surfaces and graphic structure.
+- **Warm Ivory** — `#F7F4EE`: primary headline and subtitle color.
+- **Muted Vermilion** — `#C94B3C`: rare emphasis for a consequential word, warning, emotional rupture, or key object. Never use as a constant accent.
+- **Soft Sand** — `#E8DED0`: secondary text and subtle warm supporting details.
+- **White** — `#FFFFFF`: only when maximum contrast is needed.
+
+Use Deep Ink and Slate as the foundation, Warm Ivory for primary type, and Vermilion only as a deliberate accent. Keep 3D materials and lighting believable; do not force every scene into a flat palette. No purple, neon blue/cyan, gradients, glow, rainbow colors, or excessive red.
+
+### Locked font pairing
+- **Display / hooks / chapter words: Oswald Bold (700).** Short, high-impact phrases only.
+- **Subtitles / captions / labels / supporting copy: Manrope.** Regular (400), Medium (500–600), and Bold (700) for selective emphasis.
+- Use only these two families in normal video graphics. No decorative/script fonts or random font rotation.
+- If unavailable, use a consistent close fallback (bold condensed sans for display; clean sans for body) and disclose the substitution.
+
+### On-screen typography rules
+- The opening hook is a short, concrete phrase that intensifies the first visual beat. Typography must not delay the story or replace the action.
+- Use selective emphasis: one key word or short phrase at a time. Warm Ivory is default; Vermilion is rare.
+- Subtitles are a separate layer from hook/emphasis text. Keep them accurate and readable over moving scenes.
+- Never animate every spoken word. Use controlled reveals, tracking, position, or scale only when they strengthen the emotional beat.
+- Keep text secondary to character expression and physical action unless typography itself is the story device.
+- No forced text on every shot. Preserve clean frames when the image communicates better alone.
+- Maintain clear hierarchy, spacing, alignment, and safe margins in both 16:9 and 9:16. Never cover faces, key props, or action.
+- Thumbnail typography follows the same pairing: Oswald Bold for a brief phrase only when it improves the idea; Manrope for small supporting labels. Do not default to text-heavy thumbnails.
+
+### Brand signature
+Use the canonical Ninety Figure and cube references when supplied. Preserve their exact silhouette, proportions, geometry, material, and established colors. The recurring “90” mark may appear as a restrained signature, not a watermark on every frame.
+
 ## Sound design, text, and pacing — mandatory
 
 Load and follow `references/sound-design-workflow.md` for the complete sound map, music editing, ambience, foley, transitions, mixing, source discipline, and final audio QC. The direction below defines the Ninety Sense-specific sonic identity.
