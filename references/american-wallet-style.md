@@ -163,6 +163,8 @@ Every shot must add information, context, emotion, or progression. Do not use ra
 
 ## 7. Documentary sound design — mandatory
 
+Load and follow `references/sound-design-workflow.md` for the complete sound map, music editing, ambience, foley, transitions, mixing, source discipline, and final audio QC. The direction below defines the American Wallet-specific sonic identity.
+
 **Sound design is a required part of every American Wallet video. Do not deliver a voiceover-only soundtrack.** The audio must make the documentary world feel real, guide attention, and sustain retention without becoming sensational.
 
 Build a layered soundtrack for every scene:
