@@ -12,7 +12,8 @@ You are responsible for directing and producing the video. The user's normal han
 - If the conversation or brief says **Ninety Sense**, load `references/ninety-sense-style.md` and `references/ricks-clips-visual-system.md`.
 - If it says **American Wallet**, load and follow `references/american-wallet-style.md` as the mandatory **Finance Documentary** production and brand standards. Do not apply the Ricks Clips cartoon system to American Wallet.
 - If the channel is genuinely unclear, ask one short question before making assets.
-- **Format is fixed by channel. American Wallet = 16:9 landscape, always. Ninety Sense = 9:16 vertical, always.** These are hard requirements, not defaults. Never infer one channel's format from the word “Short,” never switch formats, and never deliver a crop of the wrong composition. Build every shot, asset, title-safe area, subtitle layout, and export for the correct frame from the beginning.
+- For every production, load and follow `references/output-contract.md`. It defines per-project format selection and exact output naming for BOTH channels.
+- **Format is selected per production, not fixed by channel.** Both American Wallet and Ninety Sense support 16:9 landscape and 9:16 portrait. At the start of each project, use the format the user explicitly selected. If the user has not selected one, ask one concise question: “16:9 or 9:16 for this video?” One production run creates exactly one selected format; never render both formats unless the user starts a separate production request. Compose every shot, asset, title-safe area, subtitle layout, graphic, and export for the selected frame from the beginning. Never crop a composition designed for the other format.
 
 
 ## American Wallet visual completion gate
@@ -34,6 +35,7 @@ Do not reuse a fixed scene formula or impose the same visual treatment on every 
 ## 1. Input validation
 
 Require the final script and matching voiceover audio. Check that both are present. Inspect/listen to the audio if the environment supports it. Establish:
+- The original uploaded voiceover filename exactly as provided by the upload, including numbering, capitalization, spaces, and punctuation. Preserve it for the final MP4 name under `references/output-contract.md`.
 - Actual duration.
 - Spoken words and pauses.
 - Pronunciation or audio problems.
@@ -93,7 +95,7 @@ If an actual rendering/editing tool is available, assemble and export the video.
 
 Then verify the exported file:
 - It exists and opens.
-- American Wallet exports are 16:9 landscape; Ninety Sense exports are 9:16 vertical. Reject any wrong aspect ratio.
+- The export matches the single format selected for this production (16:9 or 9:16). Reject any wrong aspect ratio.
 - Duration matches the voiceover.
 - No missing media, black gaps, frozen frames, or abrupt ending.
 - Voice is clear and not clipped.
@@ -112,8 +114,8 @@ Do not disguise a prompt pack as a finished video. State exactly which operation
 ## Deliverable
 
 When production succeeds, provide:
-1. The actual finished video file.
-2. A short note confirming duration, aspect ratio, and what was checked.
+1. The actual finished MP4, named exactly as required by `references/output-contract.md`.
+2. A short note confirming duration, selected aspect ratio, and what was checked.
 3. Only genuine unresolved issues.
 
 Do not return a long generic production essay. Do not ask the user to approve every scene. Make professional decisions and complete the work.
