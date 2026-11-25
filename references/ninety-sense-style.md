@@ -57,3 +57,8 @@ Open on the most intriguing action or consequence. Use one short hook and select
 
 ## Content integrity
 No invented psychological research, fake quotations, diagnoses, or copied scripts. Every scene must advance the actual narration.
+
+
+## Image prompt handoff
+
+For every Ninety Sense production, follow the shared mandatory workflow in `references/image-prompt-workflow.md`. Claude must understand the actual script/story and produce detailed, ready-to-paste prompts for only the images the edit needs. Prompts must preserve Ninety Sense's stylized 3D environments and integrated flat 2D expressive-face identity, recurring-character continuity, and the selected 16:9 or 9:16 composition. The user generates the images in their chosen tool and uploads them labelled Image 1, Image 2, etc. Do not assume or require a connected image-generation API. Pause for required image uploads before claiming the video is complete.
