@@ -44,7 +44,7 @@ Run this checklist against the actual rendered MP4, not just the storyboard. The
 - [ ] Every visual beat expresses the narration; no generic filler shots.
 - [ ] The reveal is understandable and the ending pays off the opening.
 
-## Ninety Sense visual checks
+## Ninety Sense typography and color checks
 - [ ] Deep Ink (`#111827`), Slate (`#374151`), Warm Ivory (`#F7F4EE`), Muted Vermilion (`#C94B3C`), Soft Sand (`#E8DED0`), and White (`#FFFFFF`) are used consistently.
 - [ ] No purple, neon blue/cyan, gradients, glow, rainbow colors, or excessive red.
 - [ ] Oswald Bold (700) is used for short hooks/key phrases and Manrope for subtitles, captions, and supporting labels, unless a documented fallback was necessary.
@@ -58,7 +58,10 @@ Run this checklist against the actual rendered MP4, not just the storyboard. The
 - [ ] Kinetic typography is selective, narration-synchronized, and improves comprehension rather than animating every word.
 - [ ] Font roles, weights, hierarchy, and legibility remain consistent across the selected aspect ratio.
 - [ ] Finance-documentary identity is maintained; the result is not an unrelated stock-footage slideshow or audio over a blank screen.
-- [ ] Deep Navy (#14263D) and Warm Ivory (#F5F1E8) remain the only brand colors.
+- [ ] Deep Navy (`#14263D`) and Warm Ivory (`#F5F1E8`) remain the permanent American Wallet brand foundation.
+- [ ] Muted green is used only for a contextually positive financial outcome; muted red only for a contextually negative outcome. An increase in debt/costs is not treated as positive, and a decrease in debt/expenses is not treated as negative by default.
+- [ ] Red/green are restrained informational signals, not decorative brand colors; neutral explanations remain navy/ivory or subdued neutrals.
+- [ ] Charts and comparisons include labels, symbols, or direction cues so meaning is not communicated by color alone.
 - [ ] Financial numbers, charts, and documents match the supplied script or approved source assets.
 - [ ] No invented account balances, statistics, government forms, headlines, or official-looking evidence.
 - [ ] Documentary scenes, people, maps, diagrams, timelines, and typography genuinely explain the financial story.
