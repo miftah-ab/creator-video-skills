@@ -103,3 +103,94 @@ Fix issues and replay affected sections in context. Recheck the opening and endi
 
 ## 8. Capability honesty
 Use only audio tools, files, and editing operations genuinely available in the current environment. Claude can design the soundscape and produce a detailed sound map without access to an audio library. If it cannot source, place, mix, or measure a sound, state exactly what is missing and request the asset/access. Never claim a finished professional mix, measured loudness, licensed music, or completed audio QC unless those operations actually happened.
+
+
+## 9. High-end sound-design execution standard
+
+The target is a deliberately edited, layered documentary/animated-video soundtrack—not a voiceover with a music bed and a few random effects. Claude must make the sound-design decisions for the actual story and, whenever the current editing environment permits, execute them in the timeline rather than stopping at recommendations.
+
+### A. Direct the soundtrack like an editor
+
+Before editing audio, define the sonic identity of this specific video in a short internal treatment:
+- What should the audience feel at the opening, during the development, at the major turn, and at the ending?
+- Which sounds belong to the world of the scene, and which are editorial accents?
+- Where should the soundtrack become dense, restrained, intimate, tense, energetic, or silent?
+- Which recurring sound motif, if any, can help connect scenes or reinforce the story?
+
+Do not use the same preset soundscape for every upload. Do not add sounds merely to make the edit feel busy. Every music cue, ambience layer, foley event, and transition sound must have a reason.
+
+### B. Music editing must be intentional
+
+- Choose music by emotional function, instrumentation, tempo, energy, texture, and relationship to the narration—not just by a vague genre label.
+- Use multiple cues when the story genuinely changes emotional direction. A single cue may continue across several scenes if it develops purposefully.
+- Edit to musical phrasing: use bars, beats, downbeats, fills, held notes, and natural phrase endings where appropriate. Do not make arbitrary cuts that sound accidental.
+- Build and release tension with arrangement, filtering, level automation, added/subtracted layers, short pauses, and cue changes.
+- Use ducking and frequency space so the music supports rather than competes with speech.
+- Avoid repetitive looping, abrupt music restarts, unresolved endings, and music that remains emotionally unchanged while the story changes.
+- End the music intentionally: resolve, fade, sustain, or cut to silence according to the final image and narration.
+
+### C. Sound effects must be designed and layered
+
+For important on-screen actions, consider a purposeful combination of:
+- **Primary action sound:** the recognizable sound of the action (paper tear, phone placed down, footsteps, door close).
+- **Texture/detail layer:** subtle handling, friction, cloth, room reflections, mechanical detail, or environmental texture.
+- **Weight/accent layer:** a restrained low impact, tonal accent, or transient only when the action/reveal needs emphasis.
+
+Do not automatically use all three. Match perspective, distance, material, size, movement, and acoustic space. Avoid oversized impacts for small actions, cartoonish sounds in serious documentaries, and over-designed effects that make realistic scenes feel fake.
+
+### D. Transitions need both picture logic and sound logic
+
+For every major visual transition, decide whether the audio should:
+- Cut at the same point for a clean break.
+- Lead the next scene with a J-cut.
+- Continue the previous scene over the next picture with an L-cut.
+- Bridge both scenes with ambience or a continuous sound.
+- Use a short riser, reverse swell, impact, tonal shift, or musical pickup.
+- Drop to near-silence before a reveal.
+
+Use transitions selectively. Do not attach a whoosh to every cut, use the same riser repeatedly, or stack several transition effects for one edit. A transition should make the change in time, place, idea, or emotion clearer.
+
+### E. Sound perspective and continuity
+
+- Match reverb, stereo width, distance, filtering, and level to the apparent location and camera perspective.
+- Keep room tone and environmental beds continuous across shots in the same space; change them deliberately when the location changes.
+- Move sounds with visible movement only when the picture supports that movement.
+- Avoid abrupt ambience changes, mismatched reverb tails, stereo jumps, and effects that sound detached from the scene.
+- Use silence as an authored editorial choice, not because a layer was forgotten.
+
+### F. Execute and organize the actual timeline
+
+When the editing environment supports multi-track audio, organize and edit separate, clearly named lanes/stems for:
+1. Voiceover
+2. Music cues
+3. Environmental ambience/room tone
+4. Foley and story-specific SFX
+5. Transition/reveal accents
+
+Use clip gain, fades, crossfades, automation, EQ, compression, de-essing, reverb, delay, panning, and sidechain/volume ducking only when they improve the result. Avoid processing for its own sake. Keep the original voiceover and source assets intact.
+
+Name or label cues clearly enough that another editor can understand their purpose. Keep the cue sheet/sound map synchronized with the actual edit. Do not leave temporary audition tracks, muted accidental duplicates, or unused effects in the final export.
+
+If the editing environment only supports a limited audio workflow, use the best available method and state the actual limitation. Never pretend to have mixed separate stems if the tool did not support it.
+
+### G. Final professional listening pass
+
+Listen to the full export with headphones and, when possible, ordinary speakers. Do not QC only by looking at the timeline or checking that audio tracks exist.
+
+Listen specifically for:
+- Music phrase edits, cue transitions, loops, and ending resolution.
+- SFX timing against the exact visible action and narration phrase.
+- Ambience continuity and believable acoustic perspective.
+- Voice intelligibility and masking at every music/effect change.
+- Excessive repeated effects, harsh transients, muddy low mids, piercing highs, and over-compression.
+- Sudden changes in loudness, stereo image, room tone, or reverb.
+- Clicks, pops, clipped tails, accidental gaps, and sounds that continue after their visual source disappears.
+
+Replay and correct every failed passage in context. Do not call the soundtrack finished until the complete export has been listened to.
+
+### H. No false claims or unnecessary spend
+
+- Do not claim a "professional mix" based only on a written sound map.
+- Do not claim that a cue is licensed, royalty-free, or cleared unless the source/license information supports that claim.
+- Prefer user-provided or already-available authorized audio assets. Do not silently introduce paid libraries, subscriptions, or APIs.
+- If a particular sound cannot be sourced or executed with available tools, make the best appropriate edit with available authorized assets, or identify the exact missing cue/capability. Never fabricate a file or pretend it was placed in the timeline.
