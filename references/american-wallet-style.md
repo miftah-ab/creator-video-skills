@@ -6,9 +6,15 @@ American Wallet is a **finance documentary** channel. Every video must feel like
 
 The narration is the story. Visuals must make the financial system, people affected by it, decisions, objects, evidence, and consequences understandable.
 
-## 1. Fixed video format — non-negotiable
+## 1. Per-project frame format
 
-**American Wallet is always 16:9 landscape.** This is a hard channel requirement. Do not create 9:16 vertical, square, or a vertical-first edit. Compose every scene, character position, documentary insert, chart, lower third, subtitle, and graphic for a widescreen 16:9 frame from the start. Do not generate vertical assets and crop them into landscape. The final export must be 16:9.
+American Wallet supports **both 16:9 landscape and 9:16 portrait**. The user selects one format for each production; do not assume a permanent channel format.
+
+- For **16:9**, compose as a widescreen documentary: use horizontal environmental context, layered depth, wide-to-close shot progression, and layouts that use the full landscape frame.
+- For **9:16**, redesign each composition for a vertical screen: prioritize one clear subject, stack information vertically, simplify charts and document layouts, reposition characters and important objects, and keep titles/subtitles inside portrait-safe areas.
+- Generate or compose assets for the selected format from the beginning. Do not simply crop a landscape edit into portrait or stretch a portrait asset into landscape.
+- The selected format controls the entire project: scene framing, camera movement, graphics, captions, subtitles, safe areas, and final export.
+- The channel's documentary identity, Deep Navy/Warm Ivory palette, and editorial standards remain the same in either format.
 
 ## 2. Documentary visual language
 
@@ -34,14 +40,14 @@ Favor naturalistic lighting, believable materials, realistic proportions, though
 - Every audible narration beat must have an intentional visual: live-action-style scene, relevant documentary image, archive/news visual, map, chart, timeline, labeled diagram, document close-up, animated object, kinetic typography, or another story-relevant treatment.
 - A visual can be quiet or minimal when that is the editorial choice, but it must still communicate something. Empty space is not a substitute for a finished visual.
 - Do not stretch one still image across a long passage simply because no other asset was prepared. Use a purposeful sequence of crops, details, overlays, animated annotations, contextual inserts, or a newly created visual sequence. Do not fake motion with meaningless zooms.
-- If a required visual cannot be generated or sourced, do not leave a hole. Create a clear, accurate explanatory graphic from verified information or report the specific production limitation. Never fabricate evidence.
+- If a required visual cannot be generated or sourced, do not leave a hole. Create a clear explanatory visual using information already present in the supplied script or approved project assets, or report the specific production limitation. Do not invent figures, documents, headlines, or claims.
 
 ### Documentary visual toolkit
 
 Select and combine these tools according to the story. Use real visual explanation, not a slideshow:
 
 1. **Real-world documentary imagery:** people, workplaces, homes, banks, stores, government buildings, neighborhoods, and relevant everyday environments. Show observable actions and consequences, not generic posed stock-photo scenes.
-2. **Evidence and source visuals:** verified headlines, public records, official documents, published reports, filings, policy pages, historical photographs, and relevant source excerpts. Preserve context and attribution; do not invent documents or imply an illustrative prop is an authentic record.
+2. **Evidence and source visuals:** user-supplied or approved headlines, public records, official documents, reports, filings, policy pages, historical photographs, and source excerpts. Preserve their supplied context; do not invent documents or imply an illustrative prop is an authentic record.
 3. **Data visualization:** custom charts, comparisons, timelines, annotated figures, trend lines, proportional graphics, and simple calculations. Every number must match a verified source or the supplied, substantiated script. Make the takeaway visually obvious.
 4. **Maps and systems:** geographic maps, flow diagrams, institutional relationships, money flows, process diagrams, and cause-and-effect sequences when they explain how a financial system works.
 5. **Motion graphics and visual annotation:** animated labels, callouts, highlights, arrows, underlines, counters, tracked figures, document focus, transitions between scales, and progressive reveals. Motion must clarify the point, not decorate it.
@@ -51,20 +57,16 @@ Select and combine these tools according to the story. Use real visual explanati
 ### Editorial and pacing requirements
 
 - Build an editorial visual argument: establish the real-world problem, show the mechanism, reveal evidence, explain who benefits or pays, and make the consequences understandable. Adapt this structure to the script; do not force a formula.
-- Give important facts a visual proof or explanation. When narration says a figure, policy, institution, trend, or comparison matters, show the number, source, mechanism, or consequence in a form the viewer can inspect.
+- Give important points a visual explanation. When narration says a figure, policy, institution, trend, or comparison matters, show the supplied number, mechanism, or consequence in a form the viewer can inspect.
 - Use visual changes when the information changes. Vary wide context, medium action, close detail, graphic explanation, and evidence inserts. Avoid both frantic cutting and long stretches of visual inactivity.
 - Use on-screen text selectively and legibly. Highlight the exact key phrase or figure at the moment it is spoken. Do not cover the frame with paragraphs.
-- Keep graphics editorially clean: strong hierarchy, restrained motion, consistent typography, readable labels, clear units, and source attribution where appropriate. Navy and Ivory remain the brand palette; use other colors only when necessary to distinguish data categories and maintain truthful chart readability.
+- Keep graphics editorially clean: strong hierarchy, restrained motion, consistent typography, readable labels, and clear units. Use the Deep Navy and Warm Ivory brand palette. Adapt graphic layout to the selected aspect ratio.
 - Make transitions explain relationships: move from person to bill, bill to price trend, price trend to policy, or institution to consequence. Avoid unrelated transition effects.
 - Every shot must perform a job: establish, humanize, prove, compare, explain, reveal, or connect. Remove any shot that does none of these.
 
-### Evidence integrity
+### Supplied-script fidelity
 
-- Maintain a source/evidence list for every factual graphic, key number, policy claim, and quoted headline used in the edit.
-- Prefer primary sources for financial and government claims: official agency publications, legislation/regulations, company filings, original datasets, and original research. Use reputable reporting for context and events.
-- Do not fabricate charts, numbers, headlines, documents, logos, quotes, or source labels. If source material is unavailable, do not present the visual as factual evidence.
-- Distinguish historical facts, current facts, forecasts, estimates, and illustrative examples visually and verbally.
-- Keep source details available in the project notes or description references so the finished video can be audited.
+This production skill is responsible for visual storytelling and video editing, not independent financial fact-checking. Treat the supplied final script and user-provided project assets as the content source for the edit. Do not add independent financial research, fact verification, or a separate evidence-tracking workflow. Do not invent extra figures, quotes, policy details, headlines, or official documents. If a value or detail is not supplied in the script or approved assets, leave it out or use a clearly generic illustrative visual.
 
 ### Mandatory pre-export visual coverage audit
 
@@ -85,9 +87,9 @@ Use for concept-led graphics, title cards, and key explanatory visuals where a l
 - **Technique:** layered torn-paper and cutout collage, grain and halftone texture, tape and paper-clip details.
 - **Composition:** one strong central subject (an object, building, symbol, or silhouette) with smaller supporting pieces around it. Use overlap for depth. Use a split composition when the story has two sides or a clear contrast.
 - **Information:** put key figures, dates, rules, and short quotes on paper notes or tags. Use only verified facts, a few per frame, readable at phone size.
-- **Palette:** keep Deep Navy and Warm Ivory from Section 8 as the base. Red and mustard may appear only as small accents (a highlighted figure, a tag, a torn edge). No pink and no full-color takeovers.
+- **Palette:** use only Deep Navy and Warm Ivory from Section 8. Do not introduce gold, red, mustard, pink, or extra decorative colors.
 - **Originality:** any reference images supplied for this style only define the general feel. Never reproduce a specific composition, layout, artwork, poster, or thumbnail. No third-party logos or channel branding.
-- Section 2A still applies in full: no empty frames, no fabricated documents or numbers, and sources kept.
+- Section 2A still applies in full: no empty frames and no fabricated documents or numbers.
 
 ## 3. Characters are required when the story needs people
 
@@ -150,14 +152,14 @@ Do not illustrate every sentence literally. Group related narration into coheren
 
 Every shot must add information, context, emotion, or progression. Do not use random B-roll merely to fill time.
 
-## 6. Financial evidence and graphics
+## 6. Financial graphics and documents
 
-- Use exact figures, dates, policy details, and claims from the supplied script or verified source material.
-- Preserve units, time periods, comparison baselines, and qualifications.
-- Charts must accurately represent the underlying data; never invent data to make a scene more dramatic.
-- Label illustrative scenarios clearly as examples, not real people or verified cases.
-- Do not generate legible fake official documents. Use generic, non-deceptive props for illustrative scenes and reserve exact factual claims for sourced graphics or verified on-screen text.
-- If a key claim cannot be substantiated from supplied material, flag it instead of visually presenting it as fact.
+- Use the figures, dates, policy details, names, and claims exactly as supplied in the final script or approved project assets.
+- Preserve units, time periods, comparison baselines, and qualifications that appear in the supplied material.
+- Charts must accurately visualize supplied values; never invent data to make a scene more dramatic.
+- Label hypothetical or illustrative scenarios as examples when the script presents them that way.
+- Do not fabricate official documents, government letters, financial statements, account balances, seals, logos, or quotations. Use generic non-deceptive props for illustrative scenes.
+- Do not add a source-research, financial fact-checking, or evidence-tracking stage to the video workflow.
 
 ## 7. Documentary sound design — mandatory
 
@@ -187,36 +189,26 @@ Use documentary pacing: allow important evidence and human reactions to register
 
 ## 9. Required production workflow
 
-1. Research and verify the factual claims, figures, policy details, institutions, and events used in the script. Build an evidence list before designing factual graphics.
-2. Break the voiceover into story beats and identify the human stakes, financial mechanism, evidence, and consequences.
-3. For each beat, choose a documentary visual that communicates or proves the point: real-world imagery, human action, source evidence, chart, map, timeline, diagram, document detail, motion graphic, or concise typography.
-4. Create a complete visual coverage plan for the entire voiceover. There must be no empty-screen gaps or narration passages without meaningful visuals.
-5. Decide where characters are needed. If the narration describes people, their choices, or their lived consequences, plan character-led scenes rather than defaulting to object-only visuals.
-6. Build a recurring cast only when the story benefits from continuity; define each recurring character before generating their scenes.
-7. Build a varied shot list that deliberately mixes documentary scenes, environments, objects, evidence, and explanatory graphics.
-8. Generate or source each visual using tools actually available. Inspect outputs for realism, continuity, factual integrity, and relevance.
-9. Design a complete beat-by-beat sound map: evolving documentary music, location ambience, story-specific action SFX, and motivated transition/emphasis sounds.
-10. Edit picture and all sound layers to the voiceover, keeping documentary pacing and clear visual progression. Export in 16:9 landscape.
-11. Run the mandatory visual coverage audit and review the complete video for visual variety, meaningful character use, accurate evidence, brand consistency, strong layered sound, and absence of generic filler.
-
-1. Break the voiceover into story beats and identify the human stakes, financial mechanism, evidence, and consequences.
-2. Decide where characters are needed. If the narration describes people, their choices, or their lived consequences, plan character-led scenes rather than defaulting to object-only visuals.
-3. Build a recurring cast only when the story benefits from continuity; define each recurring character before generating their scenes.
-4. Build a varied shot list that deliberately mixes characters, environments, objects, evidence, and graphics.
-5. Generate or source each visual using tools actually available. Inspect outputs for realism, continuity, factual integrity, and relevance.
-6. Design a complete beat-by-beat sound map: evolving documentary music, location ambience, story-specific action SFX, and motivated transition/emphasis sounds.
-7. Edit picture and all sound layers to the voiceover, keeping documentary pacing and clear visual progression. Export in 16:9 landscape.
-8. Review the complete video for visual variety, meaningful character use, accurate evidence, brand consistency, strong layered sound, and absence of generic filler.
+1. Read the final script and listen to the supplied voiceover. Use the selected project format from the shared output contract.
+2. Interpret the story and invent an original documentary treatment for this specific video.
+3. Break the voiceover into meaningful timed beats. Plan the visual purpose, narration phrase, scene action, framing, movement, on-screen text, and sound layers for each beat.
+4. Decide where characters, environments, objects, documents, charts, maps, timelines, diagrams, or collage graphics best communicate the narration.
+5. Create and inspect the required visual assets. Maintain character, prop, and location continuity where the story uses recurring elements.
+6. Organize assets by scene and give them clear names tied to the storyboard. Keep the original voiceover filename available for the final export name.
+7. Build the picture edit, animation, captions, subtitles, music, ambience, and story-specific sound effects around the actual voiceover.
+8. Generate a preview and inspect the full timeline. Fix missing visuals, weak pacing, unreadable graphics, continuity problems, mistimed captions, and audio issues.
+9. Export one MP4 in the selected aspect ratio, using the exact voiceover-derived filename required by `references/output-contract.md`.
+10. Verify that the MP4 opens, matches the selected aspect ratio, has the correct duration and filename, and contains the completed picture and sound mix.
 
 ## Final quality test
 
 Before delivery, ask:
-- Is the final video 16:9 landscape?
+- Does the final video match the format selected for this production (16:9 or 9:16)?
 - Does this unmistakably feel like a finance documentary?
 - Are people shown when the story requires human experience or consequences?
 - Do recurring characters remain visually consistent?
 - Does each object or location have a clear reason to be on screen?
-- Are financial figures and documents accurate and non-deceptive?
+- Are figures, labels, and documents represented faithfully from the supplied script and approved assets, without fabricated details?
 - Does the video explain the financial story rather than merely decorate the narration?
 - Are the Navy and Ivory brand colors respected?
 - Is the visual sequence varied, coherent, and watchable for the full runtime?
