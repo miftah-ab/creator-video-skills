@@ -1,15 +1,19 @@
 # Creator Video Skills
 
-A self-contained Claude skill for producing YouTube videos from a final script and matching voiceover.
+A self-contained Claude skill for producing finished YouTube videos from a final script and its matching voiceover.
 
 ## Installable skill structure
 
 The repository root is the installable skill root:
-- `SKILL.md` — production instructions, with required YAML frontmatter.
-- `references/ninety-sense-style.md` — Ninety Sense visual and story profile.
-- `references/american-wallet-style.md` — separate finance-documentary profile.
-- `references/ricks-clips-visual-system.md` — actionable 3D scene + 2D expressive-face animation specification.
-- `references/quality-control.md` — final export inspection.
+- `SKILL.md` — core production instructions and workflow orchestration.
+- `PROJECT_STATUS.md` — implementation status and validation still required.
+- `references/american-wallet-style.md` — American Wallet finance-documentary identity and standards.
+- `references/ninety-sense-style.md` — Ninety Sense visual and story identity.
+- `references/ricks-clips-visual-system.md` — original 3D scene + expressive 2D face production guidance for Ninety Sense.
+- `references/image-prompt-workflow.md` — script-led image prompt creation and manual asset handoff for both channels.
+- `references/output-contract.md` — per-production aspect ratio selection and exact voiceover-basename MP4 naming.
+- `references/sound-design-workflow.md` — story-specific music, ambience, foley, effects, transitions, mixing, and audio QC.
+- `references/quality-control.md` — final export and playback inspection for both channels and both supported formats.
 
 **Important:** Keep `SKILL.md` directly at the top level. Do not place it inside `skills/voiceover-to-video/` or another nested directory. A ZIP or `.skill` package must contain `SKILL.md` at the archive root and the `references/` directory beside it.
 
@@ -18,18 +22,30 @@ Expected package layout:
 ```text
 voiceover-to-video.zip
 ├── SKILL.md
+├── PROJECT_STATUS.md
 └── references/
     ├── american-wallet-style.md
     ├── ninety-sense-style.md
     ├── ricks-clips-visual-system.md
+    ├── image-prompt-workflow.md
+    ├── output-contract.md
+    ├── sound-design-workflow.md
     └── quality-control.md
 ```
 
-## Workflow contract
+## Production workflow
 
-Input: final script + matching voiceover. Claude directs the story, creates and checks real visual assets with available tools, edits, exports, and verifies the video. A prompt list is not a finished video. No placeholders may remain in a claimed final delivery.
+Input: the final script and matching voiceover. Claude directs the creative treatment, creates story-specific image prompts and maps uploaded assets, uses available tools to create visuals and edit the timeline, designs sound, exports, and performs quality control.
 
-If an essential generation or rendering capability is unavailable, Claude must name the exact blocker instead of pretending the video was produced.
+Both American Wallet and Ninety Sense support **16:9 landscape and 9:16 portrait**. Select exactly one format for each production. Do not assume a permanent format based on channel or content type, and do not automatically render both.
+
+The final MP4 basename must exactly match the uploaded voiceover basename. Change only the audio extension to lowercase `.mp4`; preserve numbering, capitalization, spaces, and punctuation.
+
+The user may generate prompted images in their chosen image generator and upload them manually. A paid image-generation API is not required. A prompt list alone is not a finished video.
+
+## Production truth
+
+No placeholders may remain in a claimed final delivery. Do not claim that rendering, playback review, audio measurement, or quality checks happened unless they were actually performed. If an essential generation, editing, or rendering capability is unavailable, state the exact blocker rather than pretending the video was produced.
 
 ## Reference
 
