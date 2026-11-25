@@ -52,6 +52,17 @@ Hook: short and concrete. Emphasis: one short phrase at a time, timed to the exa
 ### Sound
 Voiceover stays foregrounded. Music supports the emotional arc without dictating an unearned emotion. Use motivated effects such as phone vibration, footsteps, chair movement, door click, notification, breath, and room tone. Use silence around important realizations when it improves impact. Avoid constant whooshes and impacts.
 
+## Color and typography — Ninety Sense brand lock
+
+- Brand palette: Deep Ink `#111827`, Slate `#374151`, Warm Ivory `#F7F4EE`, Muted Vermilion `#C94B3C`, Soft Sand `#E8DED0`, and White `#FFFFFF`.
+- Deep Ink and Slate are the dark foundation; Warm Ivory is the primary text color; Soft Sand is secondary; Vermilion is a rare emotional accent.
+- No purple, neon blue/cyan, gradients, glow, rainbow palettes, or excessive red. Do not recolor every 3D object; preserve believable materials.
+- Display type: **Oswald Bold (700)** for short hooks and key phrases. Supporting type, subtitles, captions, and labels: **Manrope** (400/500/700).
+- Keep to these two font families. Use and disclose a consistent fallback only when necessary.
+- Text is selective and mobile-readable. No forced captions on every shot, paragraphs over scenes, or text hiding faces and story-critical props.
+- Warm Ivory is the default text color. Reserve Muted Vermilion for a single consequential word or moment.
+- Preserve the canonical Ninety Figure and cube reference exactly when supplied. The recurring “90” mark is a restrained brand signature, not a repeated watermark.
+
 ## Asset generation procedure
 
 For each scene, write a prompt containing:
