@@ -7,8 +7,8 @@ A self-contained Claude skill for producing finished YouTube videos from a final
 The repository root is the installable skill root:
 - `SKILL.md` — core production instructions and workflow orchestration.
 - `PROJECT_STATUS.md` — implementation status and validation still required.
-- `references/american-wallet-style.md` — American Wallet finance-documentary identity and standards.
-- `references/ninety-sense-style.md` — Ninety Sense visual and story identity.
+- `references/american-wallet-style.md` — American Wallet finance-documentary identity, Barlow Condensed ExtraBold + Inter typography, and Deep Navy/Warm Ivory brand rules.
+- `references/ninety-sense-style.md` — Ninety Sense story identity, Oswald + Manrope typography, and its dark editorial color palette.
 - `references/ricks-clips-visual-system.md` — original 3D scene + expressive 2D face production guidance for Ninety Sense.
 - `references/image-prompt-workflow.md` — script-led image prompt creation and manual asset handoff for both channels.
 - `references/output-contract.md` — per-production aspect ratio selection and exact voiceover-basename MP4 naming.

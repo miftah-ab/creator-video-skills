@@ -83,6 +83,8 @@ Prompts must follow Ninety Sense's own stylized mixed-media visual identity:
 - Strong readable physical action that makes the psychological or emotional beat visible.
 - Original recurring characters with consistent body proportions, outfits, identifying colors, and face treatment.
 - Emotionally expressive staging, deliberate composition, and cinematic lighting without drifting into generic live-action imagery.
+- Brand palette: Deep Ink `#111827`, Slate `#374151`, Warm Ivory `#F7F4EE`, Muted Vermilion `#C94B3C`, Soft Sand `#E8DED0`, and White `#FFFFFF`. Use dark ink/slate as the foundation, ivory for primary graphic text, and vermilion sparingly. Avoid purple, neon blue/cyan, gradients, glow, rainbow colors, and excessive red. Preserve natural 3D materials rather than tinting every object.
+- Add typography in the editor, never inside generated images: Oswald Bold for short hooks/key phrases and Manrope for subtitles, captions, and labels.
 - Never recreate identifiable third-party channel characters or copy a creator's exact designs.
 
 ## 6. Selected aspect ratio is mandatory
