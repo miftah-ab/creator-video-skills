@@ -42,6 +42,8 @@ Avoid generic advice, random cinematic b-roll, floating quote text, and unrelate
 
 ## Sound design, text, and pacing — mandatory
 
+Load and follow `references/sound-design-workflow.md` for the complete sound map, music editing, ambience, foley, transitions, mixing, source discipline, and final audio QC. The direction below defines the Ninety Sense-specific sonic identity.
+
 **Sound is a core retention tool for Ninety Sense. A voiceover-only soundtrack is not acceptable.** Build a detailed, story-driven soundscape that makes the animated world feel alive and makes every emotional beat land.
 
 For each scene, deliberately layer:
