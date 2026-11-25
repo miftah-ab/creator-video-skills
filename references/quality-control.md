@@ -45,6 +45,11 @@ Run this checklist against the actual rendered MP4, not just the storyboard. The
 - [ ] The reveal is understandable and the ending pays off the opening.
 
 ## American Wallet visual checks
+- [ ] Barlow Condensed ExtraBold is used for display headlines and primary financial figures, unless a documented font-availability fallback was necessary.
+- [ ] Inter is used for supporting copy, chart labels, captions, and subtitles, unless a documented fallback was necessary.
+- [ ] Thumbnail headline uses the approved uppercase text-only treatment: Warm Ivory on Deep Navy, without boxes, outlines, shadows, or decorative extras.
+- [ ] Kinetic typography is selective, narration-synchronized, and improves comprehension rather than animating every word.
+- [ ] Font roles, weights, hierarchy, and legibility remain consistent across the selected aspect ratio.
 - [ ] Finance-documentary identity is maintained; the result is not an unrelated stock-footage slideshow or audio over a blank screen.
 - [ ] Deep Navy (#14263D) and Warm Ivory (#F5F1E8) remain the only brand colors.
 - [ ] Financial numbers, charts, and documents match the supplied script or approved source assets.
