@@ -47,8 +47,8 @@ Favor naturalistic lighting, believable materials, realistic proportions, though
 Select and combine these tools according to the story. Use real visual explanation, not a slideshow:
 
 1. **Real-world documentary imagery:** people, workplaces, homes, banks, stores, government buildings, neighborhoods, and relevant everyday environments. Show observable actions and consequences, not generic posed stock-photo scenes.
-2. **Evidence and source visuals:** user-supplied or approved headlines, public records, official documents, reports, filings, policy pages, historical photographs, and source excerpts. Preserve their supplied context; do not invent documents or imply an illustrative prop is an authentic record.
-3. **Data visualization:** custom charts, comparisons, timelines, annotated figures, trend lines, proportional graphics, and simple calculations. Every number must match a verified source or the supplied, substantiated script. Make the takeaway visually obvious.
+2. **Documents and context visuals:** user-supplied or approved headlines, public records, official documents, reports, filings, policy pages, historical photographs, and source excerpts. Preserve their supplied context; do not invent documents or imply an illustrative prop is an authentic record.
+3. **Data visualization:** custom charts, comparisons, timelines, annotated figures, trend lines, proportional graphics, and simple calculations. Every number must match the supplied final script or approved project assets. Make the takeaway visually obvious.
 4. **Maps and systems:** geographic maps, flow diagrams, institutional relationships, money flows, process diagrams, and cause-and-effect sequences when they explain how a financial system works.
 5. **Motion graphics and visual annotation:** animated labels, callouts, highlights, arrows, underlines, counters, tracked figures, document focus, transitions between scales, and progressive reveals. Motion must clarify the point, not decorate it.
 6. **Human stories:** carefully directed character scenes and reactions when the story involves people, choices, vulnerability, conflict, or consequences. Maintain continuity when characters recur.
@@ -86,7 +86,7 @@ Use for concept-led graphics, title cards, and key explanatory visuals where a l
 
 - **Technique:** layered torn-paper and cutout collage, grain and halftone texture, tape and paper-clip details.
 - **Composition:** one strong central subject (an object, building, symbol, or silhouette) with smaller supporting pieces around it. Use overlap for depth. Use a split composition when the story has two sides or a clear contrast.
-- **Information:** put key figures, dates, rules, and short quotes on paper notes or tags. Use only verified facts, a few per frame, readable at phone size.
+- **Information:** put key figures, dates, rules, and short quotes on paper notes or tags. Use only details supplied in the final script or approved project assets, a few per frame, readable at the selected format.
 - **Palette:** use only Deep Navy and Warm Ivory from Section 8. Do not introduce gold, red, mustard, pink, or extra decorative colors.
 - **Originality:** any reference images supplied for this style only define the general feel. Never reproduce a specific composition, layout, artwork, poster, or thumbnail. No third-party logos or channel branding.
 - Section 2A still applies in full: no empty frames and no fabricated documents or numbers.
@@ -143,7 +143,7 @@ For every narration beat, choose the strongest visual form:
 | A cost or bill changes | Relevant bill, receipt, price label, or household purchase |
 | A retirement concern is introduced | Retiree or couple in a believable daily-life setting |
 | A rule, benefit, or policy is explained | Accurate document detail, timeline, map, or clear graphic |
-| A number is compared | Simple, sourced chart or clean comparison graphic |
+| A number is compared | Simple chart based on supplied values or clean comparison graphic |
 | A consequence is described | Human reaction or observable real-world consequence |
 | A place or institution matters | Relevant American location or institution exterior/interior |
 | A complex process is explained | Step-by-step visual sequence with objects, people, and explanatory graphics |
