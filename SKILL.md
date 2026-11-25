@@ -12,7 +12,7 @@ You are responsible for directing and producing the video. The user's normal han
 - If the conversation or brief says **Ninety Sense**, load `references/ninety-sense-style.md` and `references/ricks-clips-visual-system.md`.
 - If it says **American Wallet**, load and follow `references/american-wallet-style.md` as the mandatory **Finance Documentary** production and brand standards. Do not apply the Ricks Clips cartoon system to American Wallet.
 - If the channel is genuinely unclear, ask one short question before making assets.
-- For every production, load and follow `references/output-contract.md` and `references/image-prompt-workflow.md`. They define per-project format selection, exact output naming, and the mandatory image-prompt handoff for BOTH channels.
+- For every production, load and follow `references/output-contract.md`, `references/image-prompt-workflow.md`, and `references/sound-design-workflow.md`. They define per-project format selection, exact output naming, image-prompt handoff, and professional sound-design/audio-QC standards for BOTH channels.
 - **Format is selected per production, not fixed by channel.** Both American Wallet and Ninety Sense support 16:9 landscape and 9:16 portrait. At the start of each project, use the format the user explicitly selected. If the user has not selected one, ask one concise question: “16:9 or 9:16 for this video?” One production run creates exactly one selected format; never render both formats unless the user starts a separate production request. Compose every shot, asset, title-safe area, subtitle layout, graphic, and export for the selected frame from the beginning. Never crop a composition designed for the other format.
 
 
@@ -75,7 +75,7 @@ If a genuine image-generation tool is explicitly available and the user asks Cla
 
 ## 5. Sound design, animation, and editing — mandatory
 
-**Sound is a core retention tool in BOTH channels, not optional polish. A video with only voiceover and visuals is unfinished.** Build the soundscape from the actual story and time it to the picture. Do not add random effects or use one generic music track to cover the whole video.
+Load and follow `references/sound-design-workflow.md` for the complete sound-design, music-editing, effects, mixing, source-discipline, and audio-QC standard. **Sound is a core retention tool in BOTH channels, not optional polish. A video with only voiceover and visuals is unfinished.** Build the soundscape from the actual story and time it to the picture. Do not add random effects or use one generic music track to cover the whole video.
 
 For every scene/beat, deliberately design these layers:
 1. **Voiceover:** the anchor and highest-priority element. Preserve intelligibility, natural dynamics, and every important word.
