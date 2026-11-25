@@ -181,13 +181,25 @@ Use documentary pacing: allow important evidence and human reactions to register
 
 ## 8. Brand system
 
+### Color
 - Deep Navy: `#14263D`
 - Warm Ivory: `#F5F1E8`
 - Use these as the channel's primary graphic and text palette.
-- Keep graphics clean, restrained, high-contrast, and readable on mobile.
-- Preserve the supplied official host reference exactly when the host is requested or appears. Do not replace the host with a generic younger presenter.
-- Do not add extra brand colors, decorative gold, random logos, or unrequested subscribe prompts.
-- Do not apply Ninety Sense's stylized 3D environment / flat 2D face system.
+- Do not add gold, red, mustard, pink, or other decorative brand colors.
+
+### Typography system — mandatory
+Use a consistent two-family editorial system across every American Wallet production. Do not choose random fonts scene by scene.
+
+- **Display headlines and major financial figures: Barlow Condensed ExtraBold (800).** Use for short editorial headlines, section titles, strong key phrases, and the most important numbers. It should feel authoritative and legible, not like a tabloid or sports graphic.
+- **Supporting copy, chart labels, captions, subtitles, and explanatory text: Inter.** Use regular (400) for body/supporting copy, medium (500–600) for labels, and bold (700) only for selective emphasis.
+- **Thumbnail headline: Barlow Condensed ExtraBold (800), uppercase.** Use Warm Ivory text directly on the established Deep Navy background. Keep the existing text-only thumbnail identity: no faces or humans, no boxes, banners, outlines, underlines, shadows, decorative lines, or extra colors.
+- **Numbers:** use Barlow Condensed ExtraBold for the primary number and Inter for its unit, context, date, or qualifier. Keep the full meaning and units visible; never make a number dramatic at the expense of clarity.
+- **Kinetic typography:** reveal a key phrase or figure when the narration reaches it. Use restrained word-by-word, type-on, tracking, scale, or position changes only when they improve comprehension or emphasis. Do not animate every word, make all text oversized, or copy another creator's exact motion templates.
+- **Hierarchy:** one dominant message per frame; secondary explanation clearly smaller; tertiary labels smallest but still readable at the selected format. Keep line lengths short and avoid dense paragraphs.
+- **Consistency:** preserve the same font roles, weights, and visual hierarchy throughout the video, thumbnails, charts, and recurring graphic elements. Adapt size and layout for 16:9 versus 9:16 without changing the font system.
+- **Font availability:** use the named font files when available in the editing environment. If a required family is unavailable, use a metrically and stylistically close sans-serif fallback consistently for the entire project and disclose the substitution. Do not silently mix unrelated typefaces or claim the named font was used if it was not.
+
+Keep graphics clean, restrained, high-contrast, and readable on mobile. Preserve the supplied official host reference exactly when the host is requested or appears. Do not replace the host with a generic younger presenter. Do not apply Ninety Sense's stylized 3D environment / flat 2D face system.
 
 ## 9. Required production workflow
 
