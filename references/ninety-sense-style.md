@@ -18,7 +18,7 @@ Use the mixed-media system in `ricks-clips-visual-system.md`:
 - Distinctive flat 2D expressive face/head graphics integrated onto characters.
 - Physical actions that make invisible psychological states visible.
 - Consistent original characters across shots.
-- Clear mobile-first compositions.
+- Clear compositions adapted to the selected aspect ratio.
 
 This is a visual-format reference only. Do not copy Ricks Clips scripts, characters, exact designs, footage, voice, music, or branding.
 
@@ -53,7 +53,7 @@ For each scene, deliberately layer:
 
 Create a sound map alongside the visual shot plan. Mark the exact narration beat/action, SFX, ambience, music movement, and sync point. Sound effects should reinforce the physical action and psychology, not merely decorate it. Use intentional silence sparingly for a powerful pause, never as a substitute for completing the soundtrack.
 
-Open on the most intriguing action or consequence. Use one short hook and selective emphasis; subtitles are separate. Do not animate every spoken word. Cut on changes in action, reaction, or idea; avoid meaningless rapid cuts. Sync music changes and effects to the emotional progression. The soundtrack should have purposeful variation across the entire Short.
+Open on the most intriguing action or consequence. Use one short hook and selective emphasis; subtitles are separate. Do not animate every spoken word. Cut on changes in action, reaction, or idea; avoid meaningless rapid cuts. Sync music changes and effects to the emotional progression. The soundtrack should have purposeful variation across the entire video.
 
 ## Content integrity
 No invented psychological research, fake quotations, diagnoses, or copied scripts. Every scene must advance the actual narration.
