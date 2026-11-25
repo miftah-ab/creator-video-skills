@@ -14,7 +14,7 @@ American Wallet supports **both 16:9 landscape and 9:16 portrait**. The user sel
 - For **9:16**, redesign each composition for a vertical screen: prioritize one clear subject, stack information vertically, simplify charts and document layouts, reposition characters and important objects, and keep titles/subtitles inside portrait-safe areas.
 - Generate or compose assets for the selected format from the beginning. Do not simply crop a landscape edit into portrait or stretch a portrait asset into landscape.
 - The selected format controls the entire project: scene framing, camera movement, graphics, captions, subtitles, safe areas, and final export.
-- The channel's documentary identity, Deep Navy/Warm Ivory palette, and editorial standards remain the same in either format.
+- The channel's documentary identity, Deep Navy/Warm Ivory foundation, script-led semantic color decisions, and editorial standards remain the same in either format.
 
 ## 2. Documentary visual language
 
@@ -87,7 +87,7 @@ Use for concept-led graphics, title cards, and key explanatory visuals where a l
 - **Technique:** layered torn-paper and cutout collage, grain and halftone texture, tape and paper-clip details.
 - **Composition:** one strong central subject (an object, building, symbol, or silhouette) with smaller supporting pieces around it. Use overlap for depth. Use a split composition when the story has two sides or a clear contrast.
 - **Information:** put key figures, dates, rules, and short quotes on paper notes or tags. Use only details supplied in the final script or approved project assets, a few per frame, readable at the selected format.
-- **Palette:** use only Deep Navy and Warm Ivory from Section 8. Do not introduce gold, red, mustard, pink, or extra decorative colors.
+- **Palette:** Deep Navy and Warm Ivory remain the brand foundation. For data or financial meaning, Claude may add restrained semantic colors only when the script beat requires them: muted green for a clearly positive outcome (gains, growth, increases in benefits, improving balances) and muted red for a clearly negative outcome (losses, cuts, debt increases, declining balances, risk). These are informational signals, not decorative brand colors. Neutral explanatory content stays navy/ivory or subdued neutral tones. Never use red/green merely to make a frame more dramatic, and never imply a value is good or bad without support from the narration.
 - **Originality:** any reference images supplied for this style only define the general feel. Never reproduce a specific composition, layout, artwork, poster, or thumbnail. No third-party logos or channel branding.
 - Section 2A still applies in full: no empty frames and no fabricated documents or numbers.
 
@@ -202,6 +202,23 @@ Use a consistent two-family editorial system across every American Wallet produc
 
 Keep graphics clean, restrained, high-contrast, and readable on mobile. Preserve the supplied official host reference exactly when the host is requested or appears. Do not replace the host with a generic younger presenter. Do not apply Ninety Sense's stylized 3D environment / flat 2D face system.
 
+### Script-led semantic color — mandatory
+
+Deep Navy (`#14263D`) and Warm Ivory (`#F5F1E8`) remain the permanent American Wallet brand foundation. They define the documentary identity, backgrounds, primary typography, and neutral explanatory graphics. **They are not a restriction that forces every data visualization to be navy and ivory only.**
+
+Claude must read the actual script beat and choose colors according to the meaning being communicated:
+
+- **Muted green:** only for a clearly positive financial direction or outcome, such as gains, growth, an increase in benefits, improving savings, or a rising balance when that rise is beneficial in context.
+- **Muted red:** only for a clearly negative direction or outcome, such as losses, cuts, rising debt, declining balances, reduced benefits, financial risk, or a harmful cost increase.
+- **Neutral navy, ivory, slate, and restrained grays:** for explanations, historical context, institutions, policy mechanics, neutral comparisons, and values whose positive/negative meaning is not established.
+- **Other colors:** use only when a real documentary object, map, category distinction, or accessibility need requires it. Keep the palette restrained and explainable; never add color just for decoration.
+
+The script's context determines meaning. An increase is not automatically good (debt, costs, taxes, and risk can rise); a decrease is not automatically bad (debt or expenses can fall). Do not color-code a number until Claude understands what the number represents and whether the change benefits or harms the people in the story.
+
+Use muted, documentary-appropriate shades with strong contrast and consistent meaning throughout a video. Keep red and green distinguishable with labels, symbols, or direction cues; never rely on color alone. Do not use saturated neon green/red, flashing colors, or stock trading-dashboard styling.
+
+For each chart, comparison, callout, or collage graphic, Claude must decide whether semantic color improves comprehension. If it does not, stay with the core navy/ivory identity. Color must explain the story, never overpower it.
+
 ## 9. Required production workflow
 
 1. Read the final script and listen to the supplied voiceover. Use the selected project format from the shared output contract.
@@ -225,7 +242,8 @@ Before delivery, ask:
 - Does each object or location have a clear reason to be on screen?
 - Are figures, labels, and documents represented faithfully from the supplied script and approved assets, without fabricated details?
 - Does the video explain the financial story rather than merely decorate the narration?
-- Are the Navy and Ivory brand colors respected?
+- Are Deep Navy and Warm Ivory used as the brand foundation, with red/green applied only when the script's financial meaning justifies them?
+- Are semantic colors contextually correct (for example, a rise in debt is not colored as a positive gain), restrained, consistent, and never used as decoration?
 - Is the visual sequence varied, coherent, and watchable for the full runtime?
 - Is there an evolving music bed, appropriate ambience, and varied story-specific SFX—not just voiceover?
 - Are sound effects synced to visible actions, and are music/SFX mixed below narration when speech is present?

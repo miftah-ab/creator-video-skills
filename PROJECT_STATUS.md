@@ -14,7 +14,7 @@
 
 - Execution-focused voiceover-to-video skill with input validation, creative ownership, and production truth requirements.
 - Separate Ninety Sense and American Wallet channel profiles, each with a locked typography and color system.
-- American Wallet typography: Barlow Condensed ExtraBold (800) for headlines/major figures; Inter for supporting copy, captions, labels, and subtitles. Deep Navy `#14263D` and Warm Ivory `#F5F1E8` remain the only brand colors.
+- American Wallet typography: Barlow Condensed ExtraBold (800) for headlines/major figures; Inter for supporting copy, captions, labels, and subtitles. Deep Navy `#14263D` and Warm Ivory `#F5F1E8` remain the brand foundation. Claude may use muted red/green semantic signals only when the actual script's financial meaning warrants them; color must reflect context, not decoration.
 - Ninety Sense typography: Oswald Bold (700) for short hooks/key phrases; Manrope for captions, subtitles, and supporting copy. Palette: Deep Ink `#111827`, Slate `#374151`, Warm Ivory `#F7F4EE`, Muted Vermilion `#C94B3C`, Soft Sand `#E8DED0`, and White `#FFFFFF`. Vermilion is a rare accent; no purple, neon blue/cyan, gradients, glow, rainbow colors, or excessive red.
 - Typography rules are reflected in channel profiles, image-prompt guidance, and final quality control.
 - Original Ninety Sense visual-system guidance; it borrows broad visual grammar only, not another creator's protected characters, artwork, footage, music, or branding.
