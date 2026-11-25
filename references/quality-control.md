@@ -44,6 +44,13 @@ Run this checklist against the actual rendered MP4, not just the storyboard. The
 - [ ] Every visual beat expresses the narration; no generic filler shots.
 - [ ] The reveal is understandable and the ending pays off the opening.
 
+## Ninety Sense visual checks
+- [ ] Deep Ink (`#111827`), Slate (`#374151`), Warm Ivory (`#F7F4EE`), Muted Vermilion (`#C94B3C`), Soft Sand (`#E8DED0`), and White (`#FFFFFF`) are used consistently.
+- [ ] No purple, neon blue/cyan, gradients, glow, rainbow colors, or excessive red.
+- [ ] Oswald Bold (700) is used for short hooks/key phrases and Manrope for subtitles, captions, and supporting labels, unless a documented fallback was necessary.
+- [ ] Typography is selective and mobile-readable; text does not cover expressive faces, important props, or story action. No forced text on every shot.
+- [ ] The canonical Ninety Figure and cube references are preserved exactly when supplied.
+
 ## American Wallet visual checks
 - [ ] Barlow Condensed ExtraBold is used for display headlines and primary financial figures, unless a documented font-availability fallback was necessary.
 - [ ] Inter is used for supporting copy, chart labels, captions, and subtitles, unless a documented fallback was necessary.
