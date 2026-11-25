@@ -1,8 +1,13 @@
 # Ninety Sense — channel profile
 
-## Fixed video format — non-negotiable
+## Per-project frame format
 
-**Ninety Sense is always 9:16 vertical.** This is a hard channel requirement. Do not create 16:9 landscape, square, or horizontal-first edits. Compose all characters, environments, actions, captions, and subtitles for a vertical phone screen from the beginning. Keep important faces and story actions inside vertical safe areas. The final export must be 9:16.
+Ninety Sense supports **both 16:9 landscape and 9:16 portrait**. The user selects one format for each production; do not assume Ninety Sense is permanently vertical.
+
+- For **9:16**, stage characters, props, expressions, and action for a vertical phone screen. Keep the main action and captions inside portrait-safe areas.
+- For **16:9**, redesign the scene for widescreen. Use horizontal staging, purposeful negative space, foreground/midground/background depth, and clear left-to-right character relationships where useful. Do not stretch a portrait composition or simply place a narrow vertical scene in the middle of a wide frame.
+- Adapt camera framing, scene layout, captions, subtitles, and important props to the selected format from the beginning.
+- Preserve Ninety Sense's original stylized 3D environment and integrated flat 2D expressive-face identity in either format.
 
 ## Audience and content
 Psychological and emotional Shorts about overthinking, relationships, identity, loneliness, behavior, and uncomfortable truths. The content must feel like an animated story, not a motivational quote slideshow.
@@ -13,7 +18,7 @@ Use the mixed-media system in `ricks-clips-visual-system.md`:
 - Distinctive flat 2D expressive face/head graphics integrated onto characters.
 - Physical actions that make invisible psychological states visible.
 - Consistent original characters across shots.
-- Clear mobile-first compositions.
+- Clear compositions adapted to the selected aspect ratio.
 
 This is a visual-format reference only. Do not copy Ricks Clips scripts, characters, exact designs, footage, voice, music, or branding.
 
@@ -31,11 +36,13 @@ Avoid generic advice, random cinematic b-roll, floating quote text, and unrelate
 - Establish a small reusable original cast.
 - Keep body proportions, outfits, identifying colors, and face treatment consistent.
 - Use readable expressions: confusion, suspicion, anxiety, embarrassment, anger, relief, realization.
-- Keep the face treatment graphic and intentionally integrated with the 3D scene; do not drift into generic photorealistic faces.
+- Keep the face treatment graphic and intentionally integrated with the 3D scene; do not drift into generic photorealistic faces. Adapt face scale and placement to the selected aspect ratio.
 - Preserve character identity, clothing, props, and spatial continuity.
 - Never recreate identifiable Ricks Clips characters.
 
 ## Sound design, text, and pacing — mandatory
+
+Load and follow `references/sound-design-workflow.md` for the complete sound map, music editing, ambience, foley, transitions, mixing, source discipline, and final audio QC. The direction below defines the Ninety Sense-specific sonic identity.
 
 **Sound is a core retention tool for Ninety Sense. A voiceover-only soundtrack is not acceptable.** Build a detailed, story-driven soundscape that makes the animated world feel alive and makes every emotional beat land.
 
@@ -48,7 +55,12 @@ For each scene, deliberately layer:
 
 Create a sound map alongside the visual shot plan. Mark the exact narration beat/action, SFX, ambience, music movement, and sync point. Sound effects should reinforce the physical action and psychology, not merely decorate it. Use intentional silence sparingly for a powerful pause, never as a substitute for completing the soundtrack.
 
-Open on the most intriguing action or consequence. Use one short hook and selective emphasis; subtitles are separate. Do not animate every spoken word. Cut on changes in action, reaction, or idea; avoid meaningless rapid cuts. Sync music changes and effects to the emotional progression. The soundtrack should have purposeful variation across the entire Short.
+Open on the most intriguing action or consequence. Use one short hook and selective emphasis; subtitles are separate. Do not animate every spoken word. Cut on changes in action, reaction, or idea; avoid meaningless rapid cuts. Sync music changes and effects to the emotional progression. The soundtrack should have purposeful variation across the entire video.
 
 ## Content integrity
 No invented psychological research, fake quotations, diagnoses, or copied scripts. Every scene must advance the actual narration.
+
+
+## Image prompt handoff
+
+For every Ninety Sense production, follow the shared mandatory workflow in `references/image-prompt-workflow.md`. Claude must understand the actual script/story and produce detailed, ready-to-paste prompts for only the images the edit needs. Prompts must preserve Ninety Sense's stylized 3D environments and integrated flat 2D expressive-face identity, recurring-character continuity, and the selected 16:9 or 9:16 composition. The user generates the images in their chosen tool and uploads them labelled Image 1, Image 2, etc. Do not assume or require a connected image-generation API. Pause for required image uploads before claiming the video is complete.
