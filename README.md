@@ -36,7 +36,7 @@ voiceover-to-video.zip
 
 ## Scope
 
-This skill produces videos only. Thumbnail creation, thumbnail strategy, channel banners, and promotional graphics are explicitly out of scope.
+This skill produces videos only. Channel banners and promotional graphics are out of scope.
 
 ## Production workflow
 
