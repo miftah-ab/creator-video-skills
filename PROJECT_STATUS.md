@@ -24,7 +24,7 @@
 - Shared output contract for per-production format selection and exact voiceover-basename MP4 naming.
 - Shared story-first sound-design workflow.
 - Font preflight and installation guidance for the four required font families; the actual fonts must be available on the machine that renders the video.
-- Thumbnail and channel-promotion graphics explicitly removed from project scope; this repository covers video production only.
+- Channel-promotion graphics are outside project scope; this repository covers video production only.
 - Updated quality-control checklist covering both channels, both formats, filename verification, picture, sound, and final playback.
 - README now documents all required references and the current production contract.
 
