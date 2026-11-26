@@ -13,6 +13,7 @@ The repository root is the installable skill root:
 - `references/image-prompt-workflow.md` — script-led image prompt creation and manual asset handoff for both channels.
 - `references/output-contract.md` — per-production aspect ratio selection and exact voiceover-basename MP4 naming.
 - `references/sound-design-workflow.md` — story-specific music, ambience, foley, effects, transitions, mixing, and audio QC.
+- `references/font-setup.md` — one-time font installation guidance and per-project font-availability checks.
 - `references/quality-control.md` — final export and playback inspection for both channels and both supported formats.
 
 **Important:** Keep `SKILL.md` directly at the top level. Do not place it inside `skills/voiceover-to-video/` or another nested directory. A ZIP or `.skill` package must contain `SKILL.md` at the archive root and the `references/` directory beside it.
@@ -32,6 +33,10 @@ voiceover-to-video.zip
     ├── sound-design-workflow.md
     └── quality-control.md
 ```
+
+## Scope
+
+This skill produces videos only. Thumbnail creation, thumbnail strategy, channel banners, and promotional graphics are explicitly out of scope.
 
 ## Production workflow
 
