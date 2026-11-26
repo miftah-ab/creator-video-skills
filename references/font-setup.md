@@ -34,4 +34,4 @@ If the environment does not expose font inspection, say that availability could 
 
 ## Production scope
 
-Typography rules in this document apply to video frames only. Thumbnail design, thumbnail strategy, channel banners, and promotional graphics are not part of this skill.
+Typography rules in this document apply to video frames only. Channel banners and promotional graphics are not part of this skill.
